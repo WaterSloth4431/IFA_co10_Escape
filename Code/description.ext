@@ -221,3 +221,14 @@ class CfgLeaflets
 		//model = "myLeaflet.p3d"; // In-flight model. Generic white leaflet is used when not defined.
 	};
 };
+
+class CfgDiscordRichPresence {
+    applicationID="1095111310963916810";
+    defaultDetails="";
+    defaultState="Preparing...";
+    defaultLargeImageKey="escape_banner";
+    defaultLargeImageText="co10 Escape - Arma 3";
+    defaultSmallImageKey="logo";
+    defaultSmallImageText="co10";
+    useTimeElapsed=1;
+};
