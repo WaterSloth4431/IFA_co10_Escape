@@ -8,10 +8,10 @@ required Mods:
 - Faces of War
 - Cup Terrains - Core
 
-Highly Suggested Mods
+Highly Suggested Mods:
 - Ace no med (my version - https://steamcommunity.com/sharedfiles/filedetails/?id=2879743499)
 - Enhanced Movement
-
+- Discord rich presence (https://steamcommunity.com/sharedfiles/filedetails/?id=1493485159)
 Changes made from orginal mission
 
 - 13 ww2 themed new templates added
