@@ -2,6 +2,7 @@ params["_player"];
 private["_placed"];
 
 
+	
 diag_log format["fn_initPlayer run for %1", name _player];
 
 
@@ -63,4 +64,6 @@ _player setvariable["A3E_PlayerInitializedServer",true,true];
 waituntil{!isNil("A3E_EscapeHasStarted")};
 
 [_player, false] remoteExec ["setCaptive", _player, false];
+
+
 
