@@ -1,6 +1,6 @@
 params["_pos","_count"];
 
-private _possibleInfantryTypes = missionNamespace getvariable ["A3E_UNITS_civilian_InfantryTypes",["C_man_p_beggar_F","C_man_1","C_Man_casual_4_v2_F","C_Man_casual_5_v2_F","C_Man_casual_6_v2_F","C_Man_casual_7_F","C_Man_casual_8_F"]];
+private _possibleInfantryTypes = missionNamespace getvariable ["A3E_UNITS_civilian_InfantryTypes",["LIB_CIV_Citizen_4","LIB_CIV_Functionary_4","LIB_CIV_SchoolTeacher","LIB_CIV_Villager_2","LIB_CIV_Villager_3","LIB_CIV_Woodlander_1","LIB_CIV_Woodlander_4","LIB_CIV_Worker_2","LIB_CIV_SchoolTeacher_2","LIB_CIV_Doctor","LIB_CIV_Priest","LIB_CIV_Rocker","LIB_CIV_Assistant"]];
 private _side = civilian;
 
 if(count _possibleInfantryTypes <= 0) then {
