@@ -9,8 +9,8 @@
     </Container>
     <Container name="Actions">
       <Key ID="STR_A3E_action_hackTerminal">
-        <Original>Hack Terminal</Original>
-        <English>Hack Terminal</English>
+        <Original>Call in Evac</Original>
+        <English>Call in Evac</English>
       </Key>
       <Key ID="STR_A3E_action_heal">
         <Original>Heal</Original>

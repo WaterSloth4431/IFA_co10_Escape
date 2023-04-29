@@ -3,7 +3,7 @@ private ["_isUnconscious","_generatorTrailer"];
 private [ "_count", "_text","_engineer"];
 _generatorTrailer = cursorTarget;
 //BIS_fnc_DataTerminalAnimate
-if((_generatorTrailer getvariable ["A3E_Terminal_Hacked",false])) exitwith {systemchat "Terminal already used!";};
+if((_generatorTrailer getvariable ["A3E_Terminal_Hacked",false])) exitwith {systemchat "Radio already used!";};
 
 _generatorTrailer setvariable ["A3E_Terminal_Hacked",true,true];
 [_generatorTrailer,"red","red","red"] spawn BIS_fnc_DataTerminalColor;
@@ -20,7 +20,7 @@ private _state2 = _count-(_stateSteps)*1;
 private _state3 = _count-(_stateSteps)*2;
 while {(_count > 0) && (_unit distance _generatorTrailer < 3) && !(_unit getVariable ["AT_Revive_isUnconscious",false])} do
 {
-	_text = "Hacking " + str _count;
+	_text = "Using Radio " + str _count;
 	if(_count==_state1) then {
 		[_generatorTrailer,1] spawn BIS_fnc_DataTerminalAnimate;
 	};
@@ -39,15 +39,15 @@ while {(_count > 0) && (_unit distance _generatorTrailer < 3) && !(_unit getVari
 [_generatorTrailer,0] spawn BIS_fnc_DataTerminalAnimate;
 _isUnconscious = _unit getVariable ["AT_Revive_isUnconscious",false];
 if (_count > 0 && _isUnconscious) exitWith {
-    cutText ["Hacking aborted!", "Plain", 1];
+    cutText ["Radio aborted!", "Plain", 1];
 	_generatorTrailer setvariable ["A3E_Terminal_Hacked",false,true];
-	[_generatorTrailer,"green","green","green"] spawn BIS_fnc_DataTerminalColor;
+	//[_generatorTrailer,"green","green","green"] spawn BIS_fnc_DataTerminalColor;
 };
 
 if (_count > 0 && _unit distance _generatorTrailer > 3) exitWith {
     cutText ["You must get closer!", "Plain", 1];
 	_generatorTrailer setvariable ["A3E_Terminal_Hacked",false,true];
-	[_generatorTrailer,"green","green","green"] spawn BIS_fnc_DataTerminalColor;
+	//[_generatorTrailer,"green","green","green"] spawn BIS_fnc_DataTerminalColor;
 };
 
 cutText ["", "Plain", 1];
