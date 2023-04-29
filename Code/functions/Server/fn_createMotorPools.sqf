@@ -74,7 +74,7 @@ if(count(_sites)==0 && _createMPcount<A3E_MotorPoolCount) then {
 
 a3e_var_Escape_MotorPoolPositions = [];
 
-private _MotorPoolTemplates = missionnamespace getvariable ["A3E_MotorPoolTemplates",["A3E_fnc_BuildMotorPool"]];
+private _MotorPoolTemplates = missionnamespace getvariable ["A3E_MotorPoolTemplates",["A3E_fnc_BuildMotorPool_WW2"]];
 private _playergroup = [] call A3E_fnc_getPlayerGroup;
 {
     // Fixme: hard coding to 180° orientation for now
