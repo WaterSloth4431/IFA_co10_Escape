@@ -1,9 +1,12 @@
 // timeManager.sqf
 0 spawn {
 // Configuration
-private _dayStartHour = 3; // The hour at which the day starts (6:00 AM)
-private _nightStartHour = 21; // The hour at which the night starts (6:00 PM)
-private _timeMultiplier = 5; // Time acceleration during daytime (5x speed)
+private _sunriseSunsetTime = date call BIS_fnc_sunriseSunsetTime; // get sunrise/sunset time for the current date
+private _dayStartHour = 0;
+private _nightStartHour = 0;
+private _timeMultiplier = timeMultiplier;
+_dayStartHour = _sunriseSunsetTime select 0;
+_nightStartHour = _sunriseSunsetTime select 1;
 
 while {true} do {
     private _currentHour = daytime;
@@ -11,7 +14,7 @@ while {true} do {
 
     if (_isDaytime) then {
         // Accelerate time during daytime
-        setTimeMultiplier A3E_Param_TimeMultiplier;
+        setTimeMultiplier _timeMultiplier;
 
         // Wait for next check
         sleep 60;
