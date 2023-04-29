@@ -181,6 +181,9 @@ if(isNil("A3E_ExclusionZones")) then {
   } foreach allMapMarkers;
 };
 
+// start skip night script
+execVM "Scripts\timeManager.sqf";
+
 // Choose a start position
 if(isNil("A3E_ClearedPositionDistance")) then {
 	A3E_ClearedPositionDistance = 500;
@@ -611,6 +614,7 @@ call A3E_fnc_InitTraps;
 		//	[[[_x], {(_this select 0) setCaptive false;}], "BIS_fnc_spawn", _x, false] call BIS_fnc_MP;
 		//} foreach call A3E_fnc_GetPlayers;
 	   diag_log "Server: Escape has started.";
+	      
     };
 	//Spawn alarm watchdog
 	[_guardGroups] spawn {
