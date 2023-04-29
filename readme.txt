@@ -1,5 +1,11 @@
 IFA3 Escape 1.9
 
+required Mods:
+- CBA_A3
+- IFA3 AIO
+- Faces of War
+- Cup Terrains - Core
+
 Changes made from orginal mission
 
 - 13 ww2 themed new templates added
