@@ -121,3 +121,7 @@ if(!isNil("CBA_fnc_addKeybind")) then {
 		["A3E Earplugs", "toggle_earplugs_key", localize "STR_A3E_initLocalPlayer_toggleEarplugs", {_this call A3E_fnc_toggleEarplugs}, ""] call CBA_fnc_addKeybind;
 	};
 };
+
+[]execVM "scripts\intro.sqf";
+
+[]execVM "scripts\discordpresence.sqf";
