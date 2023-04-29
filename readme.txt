@@ -32,12 +32,11 @@ Changes made from orginal mission
 	- discord rich presence script
 		- added functionality with this mod https://gist.github.com/ConnorAU/b44448714e7ac46715d6959be8dd4240
 		- gets map name, and number of players, status updates upon escape start
+		
 	- Intro script
-		- personalized to 509th server
-		- will most likely remove or edit for others use
+
 	- Time manager script
 		- checks for night time and skips to morning
-			- dawn and dusk time need to be manually set in scripts/timemanager.sqf
 
 - Suggestions
 	- turn add nvg and tws scope param off, or it will add nvg's to your ww2 dudes -_-
