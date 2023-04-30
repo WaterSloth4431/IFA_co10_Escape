@@ -1,11 +1,11 @@
-version=53;
+version=54;
 class EditorData
 {
 	moveGridStep=1;
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=641;
 	class ItemIDProvider
 	{
 		nextID=177;
@@ -16,25 +16,27 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4873.561,458.71283,5247.1221};
-		dir[]={-0.25034061,-0.43914309,-0.86286694};
-		up[]={-0.12236476,0.898413,-0.42176297};
-		aside[]={-0.96042234,-1.1175871e-008,0.2786434};
+		pos[]={5389.125,78.436737,340.56717};
+		dir[]={-0.45902306,-0.72870159,-0.50830054};
+		up[]={-0.48840484,0.68480521,-0.54083532};
+		aside[]={-0.74219644,-3.6903657e-008,0.67024082};
 	};
 };
 binarizationWanted=0;
+sourceName="co10_Escape_IFA3_US_vs_GER";
 addons[]=
 {
 	{* REQUIRE *}
 	"A3_Ui_F",
 	"A3_Modules_F",
 	"A3_Characters_F"
+
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=3;
+		items=5;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -44,17 +46,25 @@ class AddonsMetaData
 		};
 		class Item1
 		{
+			className="WW2_Core_c_IF_Gui_c";
+			name="WW2_Core_c_IF_Gui_c";
+		};
+		class Item2
+		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item2
+		class Item3
 		{
-			className="A3_Characters_F";
-			name="Arma 3 Alpha - Characters and Clothing";
-			author="Bohemia Interactive";
-			url="https://www.arma3.com";
+			className="WW2_Assets_c_Characters_Americans_c_US_Army";
+			name="WW2_Assets_c_Characters_Americans_c_US_Army";
+		};
+		class Item4
+		{
+			className="WW2_Core_c_WW2_EditorPreviews_c";
+			name="WW2_Core_c_WW2_EditorPreviews_c";
 		};
 	};
 };
@@ -62,6 +72,27 @@ randomSeed=12680009;
 class ScenarioData
 {
 	author="Scruffy";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
 };
 class Mission
 {
@@ -85,7 +116,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=64;
+		items=63;
 		class Item0
 		{
 			dataType="Marker";
@@ -93,7 +124,7 @@ class Mission
 			name="drn_russianSearchChopperStartPosMarker";
 			type="Empty";
 			id=0;
-			atlOffset=90.005554;
+			atlOffset=95.341934;
 		};
 		class Item1
 		{
@@ -103,7 +134,7 @@ class Mission
 			type="Empty";
 			colorName="ColorGreen";
 			id=1;
-			atlOffset=-7.6293945e-006;
+			atlOffset=2.5813141;
 		};
 		class Item2
 		{
@@ -112,6 +143,7 @@ class Mission
 			name="drn_insurgentAirfieldMarker";
 			type="Empty";
 			id=2;
+			atlOffset=5.2066555;
 		};
 		class Item3
 		{
@@ -120,7 +152,7 @@ class Mission
 			name="drn_searchChopperStartPosMarker";
 			type="Empty";
 			id=3;
-			atlOffset=-1.1974804;
+			atlOffset=3.41224;
 		};
 		class Item4
 		{
@@ -129,7 +161,7 @@ class Mission
 			name="drn_dropChopperStartPosMarker";
 			type="Empty";
 			id=4;
-			atlOffset=-134.23019;
+			atlOffset=-133.37416;
 		};
 		class Item5
 		{
@@ -138,6 +170,7 @@ class Mission
 			name="TrafficMarker_NorthWest";
 			type="Empty";
 			id=5;
+			atlOffset=1.7770309;
 		};
 		class Item6
 		{
@@ -146,7 +179,7 @@ class Mission
 			name="TrafficMarker_NorthEast";
 			type="Empty";
 			id=6;
-			atlOffset=-258.60852;
+			atlOffset=-258.59436;
 		};
 		class Item7
 		{
@@ -155,7 +188,7 @@ class Mission
 			name="TrafficMarker_SouthWest";
 			type="Empty";
 			id=7;
-			atlOffset=-25.05896;
+			atlOffset=-25.053452;
 		};
 		class Item8
 		{
@@ -165,22 +198,23 @@ class Mission
 			type="Empty";
 			angle=1.0334752;
 			id=8;
-			atlOffset=-2.0084071;
+			atlOffset=-2.0085182;
 		};
 		class Item9
 		{
 			dataType="Marker";
-			position[]={5499.1299,2.03,510.03299};
-			name="A3E_ExtractionPos5";
+			position[]={5317.7773,3.2423825,312.37833};
+			name="A3E_BoatExtractionPos5";
 			type="Empty";
 			colorName="ColorPink";
 			id=12;
+			atlOffset=4.8067555;
 		};
 		class Item10
 		{
 			dataType="Marker";
 			position[]={7942.9658,1.8,-748.875};
-			name="A3E_ExtractionSpawnPos5";
+			name="A3E_BoatExtractionSpawnPos5";
 			type="Empty";
 			colorName="ColorPink";
 			id=13;
@@ -189,105 +223,105 @@ class Mission
 		class Item11
 		{
 			dataType="Marker";
-			position[]={5547.8901,14.68,465.16199};
-			name="A3E_ExtractionPos5_1";
+			position[]={5366.5376,14.799887,267.50732};
+			name="A3E_BoatExtractionPos5_1";
 			type="Empty";
 			colorName="ColorPink";
 			id=14;
-			atlOffset=12.650001;
+			atlOffset=16.450188;
 		};
 		class Item12
 		{
 			dataType="Marker";
-			position[]={5481.0029,153.601,2354.8589};
-			name="A3E_ExtractionPos6";
+			position[]={6091.4512,55.383736,1524.4844};
+			name="A3E_CarExtractionPos6";
 			type="Empty";
 			colorName="ColorPink";
-			angle=249.38997;
+			angle=249.38992;
 			id=15;
-			atlOffset=-0.00038146973;
 		};
 		class Item13
 		{
 			dataType="Marker";
-			position[]={6816.084,0,314.117};
-			name="A3E_ExtractionSpawnPos6";
+			position[]={3979.9775,3.1979406,2066.2283};
+			name="A3E_CarExtractionSpawnPos6";
 			type="Empty";
 			colorName="ColorPink";
+			angle=110.39015;
 			id=16;
-			atlOffset=9.0911703;
 		};
 		class Item14
 		{
 			dataType="Marker";
-			position[]={5531.6909,154.424,2332.8};
-			name="A3E_ExtractionPos6_1";
+			position[]={6067.8389,61.153996,1539.1836};
+			name="A3E_CarExtractionPos6_1";
 			type="Empty";
 			colorName="ColorPink";
 			angle=289.57401;
 			id=17;
-			atlOffset=-0.0001373291;
 		};
 		class Item15
 		{
 			dataType="Marker";
-			position[]={2206.729,311.36499,5752.9458};
-			name="A3E_ExtractionSpawnPos4";
+			position[]={4020.5281,2.8282397,2050.0698};
+			name="A3E_CarExtractionSpawnPos4";
 			type="Empty";
 			colorName="ColorPink";
+			angle=291.97211;
 			id=23;
-			atlOffset=-46.423035;
 		};
 		class Item16
 		{
 			dataType="Marker";
-			position[]={2844.6069,37.800999,7278.7798};
-			name="A3E_ExtractionSpawnPos3";
+			position[]={2495.9597,5.8173757,3912.7468};
+			name="A3E_CarExtractionSpawnPos3";
 			type="Empty";
 			colorName="ColorPink";
+			angle=356.29279;
 			id=26;
-			atlOffset=0.00037384033;
+			atlOffset=4.7683716e-007;
 		};
 		class Item17
 		{
 			dataType="Marker";
-			position[]={392.91568,544.43555,2508.3135};
-			name="A3E_ExtractionPos2_1";
+			position[]={817.44238,548.3031,1945.886};
+			name="A3E_CarExtractionPos2_1";
 			type="Empty";
 			colorName="ColorPink";
-			angle=357.54095;
+			angle=357.54089;
 			id=27;
+			atlOffset=202.48477;
 		};
 		class Item18
 		{
 			dataType="Marker";
-			position[]={374.88867,550.93854,2459.9802};
-			name="A3E_ExtractionPos2";
+			position[]={802.18396,550.94788,1936.3813};
+			name="A3E_CarExtractionPos2";
 			type="Empty";
 			colorName="ColorPink";
 			angle=4.395;
 			id=28;
-			atlOffset=6.1035156e-005;
+			atlOffset=202.51941;
 		};
 		class Item19
 		{
 			dataType="Marker";
-			position[]={-642.07251,391.22046,4536.4019};
-			name="A3E_ExtractionSpawnPos2";
+			position[]={2727.135,58.796539,1474.5363};
+			name="A3E_CarExtractionSpawnPos2";
 			type="Empty";
 			colorName="ColorPink";
+			angle=204.12755;
 			id=29;
-			atlOffset=-21.351593;
 		};
 		class Item20
 		{
 			dataType="Marker";
-			position[]={-654.90833,470.81714,1723.1848};
-			name="A3E_ExtractionSpawnPos1";
+			position[]={2664.2471,2.5288513,2654.1396};
+			name="A3E_CarExtractionSpawnPos1";
 			type="Empty";
 			colorName="ColorPink";
+			angle=330.58008;
 			id=32;
-			atlOffset=-9.1129456;
 		};
 		class Item21
 		{
@@ -297,7 +331,7 @@ class Mission
 			type="Empty";
 			colorName="ColorRed";
 			id=33;
-			atlOffset=6.1035156e-005;
+			atlOffset=-3.0169983;
 		};
 		class Item22
 		{
@@ -315,7 +349,7 @@ class Mission
 			name="Boot_Hill";
 			type="Empty";
 			id=35;
-			atlOffset=6.1035156e-005;
+			atlOffset=-3.2034302;
 		};
 		class Item24
 		{
@@ -325,7 +359,7 @@ class Mission
 			type="Empty";
 			colorName="ColorRed";
 			id=36;
-			atlOffset=-173.88831;
+			atlOffset=-173.90276;
 		};
 		class Item25
 		{
@@ -334,7 +368,7 @@ class Mission
 			name="TrafficMarker_North";
 			type="Empty";
 			id=37;
-			atlOffset=-6.6938477;
+			atlOffset=-6.3277664;
 		};
 		class Item26
 		{
@@ -343,7 +377,7 @@ class Mission
 			name="TrafficMarker_East";
 			type="Empty";
 			id=38;
-			atlOffset=-152.53137;
+			atlOffset=-152.52916;
 		};
 		class Item27
 		{
@@ -352,7 +386,7 @@ class Mission
 			name="TrafficMarker_South";
 			type="Empty";
 			id=39;
-			atlOffset=-24.932388;
+			atlOffset=-24.926712;
 		};
 		class Item28
 		{
@@ -361,7 +395,7 @@ class Mission
 			name="TrafficMarker_West";
 			type="Empty";
 			id=40;
-			atlOffset=-46.023071;
+			atlOffset=-45.697693;
 		};
 		class Item29
 		{
@@ -370,6 +404,7 @@ class Mission
 			name="TrafficMarker_AirField";
 			type="Empty";
 			id=41;
+			atlOffset=-0.62055779;
 		};
 		class Item30
 		{
@@ -382,6 +417,7 @@ class Mission
 			name="server";
 			id=42;
 			type="Logic";
+			atlOffset=1.536499;
 		};
 		class Item31
 		{
@@ -394,6 +430,7 @@ class Mission
 			name="center";
 			id=43;
 			type="Logic";
+			atlOffset=2.6706085;
 		};
 		class Item32
 		{
@@ -655,7 +692,7 @@ class Mission
 		class Item35
 		{
 			dataType="Trigger";
-			position[]={392.91568,544.43555,2508.3135};
+			position[]={817.44238,548.3031,1945.886};
 			class Attributes
 			{
 				sizeA=0;
@@ -664,11 +701,12 @@ class Mission
 			};
 			id=59;
 			type="EmptyDetector";
+			atlOffset=202.48477;
 		};
 		class Item36
 		{
 			dataType="Trigger";
-			position[]={374.88672,550.93823,2459.9832};
+			position[]={802.18201,550.94775,1936.3843};
 			class Attributes
 			{
 				sizeA=0;
@@ -677,11 +715,12 @@ class Mission
 			};
 			id=60;
 			type="EmptyDetector";
+			atlOffset=202.51929;
 		};
 		class Item37
 		{
 			dataType="Trigger";
-			position[]={5481.001,167.72375,2354.8586};
+			position[]={6091.4492,69.506203,1524.4841};
 			class Attributes
 			{
 				sizeA=0;
@@ -690,12 +729,12 @@ class Mission
 			};
 			id=69;
 			type="EmptyDetector";
-			atlOffset=14.122528;
+			atlOffset=14.122192;
 		};
 		class Item38
 		{
 			dataType="Trigger";
-			position[]={5531.6899,168.54648,2332.7996};
+			position[]={6067.8379,75.276596,1539.1831};
 			class Attributes
 			{
 				sizeA=0;
@@ -704,12 +743,12 @@ class Mission
 			};
 			id=70;
 			type="EmptyDetector";
-			atlOffset=14.122482;
+			atlOffset=14.122509;
 		};
 		class Item39
 		{
 			dataType="Trigger";
-			position[]={5499.1294,2.03,510.0332};
+			position[]={5317.7769,3.2424026,312.37854};
 			class Attributes
 			{
 				sizeA=0;
@@ -718,11 +757,12 @@ class Mission
 			};
 			id=71;
 			type="EmptyDetector";
+			atlOffset=4.8067718;
 		};
 		class Item40
 		{
 			dataType="Trigger";
-			position[]={5547.8887,2.03,465.16296};
+			position[]={5366.5361,2.1498852,267.5083};
 			class Attributes
 			{
 				sizeA=0;
@@ -731,20 +771,22 @@ class Mission
 			};
 			id=72;
 			type="EmptyDetector";
+			atlOffset=3.8001828;
 		};
 		class Item41
 		{
 			dataType="Marker";
-			position[]={496.86087,590.3551,3542.2844};
-			name="A3E_ExtractionPos1_1";
+			position[]={1863.7362,108.96375,3714.1421};
+			name="A3E_CarExtractionPos1_1";
 			type="Empty";
 			colorName="ColorPink";
 			id=115;
+			atlOffset=4.1709442;
 		};
 		class Item42
 		{
 			dataType="Trigger";
-			position[]={496.86185,590.35492,3542.2874};
+			position[]={1863.7372,108.96423,3714.145};
 			class Attributes
 			{
 				sizeA=0;
@@ -753,12 +795,13 @@ class Mission
 			};
 			id=116;
 			type="EmptyDetector";
+			atlOffset=4.1711273;
 		};
 		class Item43
 		{
 			dataType="Marker";
-			position[]={565.75507,580.78522,3495.0042};
-			name="A3E_ExtractionPos1";
+			position[]={1864.957,102.65462,3692.1333};
+			name="A3E_CarExtractionPos1";
 			type="Empty";
 			colorName="ColorPink";
 			id=117;
@@ -766,7 +809,7 @@ class Mission
 		class Item44
 		{
 			dataType="Trigger";
-			position[]={565.75214,580.78522,3495.0051};
+			position[]={1864.9541,102.65482,3692.1343};
 			class Attributes
 			{
 				sizeA=0;
@@ -779,17 +822,17 @@ class Mission
 		class Item45
 		{
 			dataType="Marker";
-			position[]={2980.175,2.6010001,5904.0781};
-			name="A3E_ExtractionPos3";
+			position[]={2909.1804,16.784178,5896.4678};
+			name="A3E_CarExtractionPos3";
 			type="Empty";
 			colorName="ColorPink";
 			id=131;
-			atlOffset=-0.00010824203;
+			atlOffset=1.9073486e-006;
 		};
 		class Item46
 		{
 			dataType="Trigger";
-			position[]={2980.1743,2.6010695,5904.0781};
+			position[]={2909.1797,16.784182,5896.4678};
 			class Attributes
 			{
 				sizeA=0;
@@ -798,21 +841,22 @@ class Mission
 			};
 			id=132;
 			type="EmptyDetector";
+			atlOffset=1.9073486e-006;
 		};
 		class Item47
 		{
 			dataType="Marker";
-			position[]={2990.9199,3.921,5968.7788};
-			name="A3E_ExtractionPos3_1";
+			position[]={2902.7769,19.965109,5961.7871};
+			name="A3E_CarExtractionPos3_1";
 			type="Empty";
 			colorName="ColorPink";
 			id=133;
-			atlOffset=0.0004928112;
+			atlOffset=0.00049209595;
 		};
 		class Item48
 		{
 			dataType="Trigger";
-			position[]={2990.9207,3.9204657,5968.7803};
+			position[]={2902.7776,19.964701,5961.7886};
 			class Attributes
 			{
 				sizeA=0;
@@ -825,18 +869,18 @@ class Mission
 		class Item49
 		{
 			dataType="Marker";
-			position[]={3702.115,370.58099,3664.6431};
-			name="A3E_ExtractionPos4_1";
+			position[]={2791.7659,7.8422489,2815.6755};
+			name="A3E_CarExtractionPos4_1";
 			type="Empty";
 			colorName="ColorPink";
-			angle=160.30399;
+			angle=160.30396;
 			id=135;
-			atlOffset=-0.00039672852;
+			atlOffset=3.3428178;
 		};
 		class Item50
 		{
 			dataType="Trigger";
-			position[]={3823.1753,349.09982,3599.5876};
+			position[]={2800.5994,4.176404,2782.7849};
 			class Attributes
 			{
 				sizeA=0;
@@ -845,12 +889,12 @@ class Mission
 			};
 			id=136;
 			type="EmptyDetector";
-			atlOffset=0.5994873;
+			atlOffset=0.59896874;
 		};
 		class Item51
 		{
 			dataType="Trigger";
-			position[]={3702.1147,370.58188,3664.6458};
+			position[]={2791.7656,7.8427124,2815.6782};
 			class Attributes
 			{
 				sizeA=0;
@@ -859,95 +903,43 @@ class Mission
 			};
 			id=137;
 			type="EmptyDetector";
+			atlOffset=3.3432145;
 		};
 		class Item52
 		{
 			dataType="Marker";
-			position[]={3823.177,348.50101,3599.5891};
-			name="A3E_ExtractionPos4";
+			position[]={2800.6011,3.577522,2782.7864};
+			name="A3E_CarExtractionPos4";
 			type="Empty";
 			colorName="ColorPink";
 			angle=152.58798;
 			id=138;
-			atlOffset=0.00054931641;
+			atlOffset=2.3841858e-007;
 		};
 		class Item53
 		{
-			dataType="Logic";
-			class PositionInfo
-			{
-				position[]={3819.3196,348.0715,3593.2729};
-				angles[]={6.2332296,0,6.276526};
-			};
-			areaSize[]={5,-1,5};
-			flags=1;
-			id=166;
-			type="ModuleHideTerrainObjects_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="#filter";
-					expression="_this setVariable [""#filter"",_value]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=15;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="#hideLocally";
-					expression="_this setVariable [""#hideLocally"",_value]";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				nAttributes=2;
-			};
+			dataType="Marker";
+			position[]={2906.189,24.996748,6121.2344};
+			name="A3E_CarExtractionSpawnPos7";
+			type="Empty";
+			colorName="ColorPink";
+			angle=181.57732;
+			id=167;
 		};
 		class Item54
 		{
 			dataType="Marker";
-			position[]={3336.3315,108.57345,6248.7485};
-			name="A3E_ExtractionSpawnPos7";
-			type="Empty";
-			colorName="ColorPink";
-			id=167;
-		};
-		class Item55
-		{
-			dataType="Marker";
-			position[]={2290.012,33.414822,4482.4917};
-			name="A3E_ExtractionPos7";
+			position[]={2315.9258,46.523735,4590.9922};
+			name="A3E_CarExtractionPos7";
 			type="Empty";
 			colorName="ColorPink";
 			id=168;
+			atlOffset=3.8146973e-006;
 		};
-		class Item56
+		class Item55
 		{
 			dataType="Trigger";
-			position[]={2290.0127,33.415188,4482.4946};
+			position[]={2315.9265,46.524128,4590.9951};
 			class Attributes
 			{
 				sizeA=0;
@@ -956,21 +948,22 @@ class Mission
 			};
 			id=169;
 			type="EmptyDetector";
+			atlOffset=3.8146973e-006;
 		};
-		class Item57
+		class Item56
 		{
 			dataType="Marker";
-			position[]={2303.3738,38.591145,4540.4775};
-			name="A3E_ExtractionPos7_1";
+			position[]={2292.2319,46.642056,4590.083};
+			name="A3E_CarExtractionPos7_1";
 			type="Empty";
 			colorName="ColorPink";
 			id=170;
-			atlOffset=0.65162277;
+			atlOffset=0.6515274;
 		};
-		class Item58
+		class Item57
 		{
 			dataType="Trigger";
-			position[]={2303.3706,38.590961,4540.478};
+			position[]={2292.2288,46.641682,4590.0835};
 			class Attributes
 			{
 				sizeA=0;
@@ -979,32 +972,32 @@ class Mission
 			};
 			id=171;
 			type="EmptyDetector";
-			atlOffset=0.65120316;
+			atlOffset=0.65110779;
+		};
+		class Item58
+		{
+			dataType="Marker";
+			position[]={3104.8552,2.7655091,2215.6526};
+			name="A3E_CarExtractionSpawnPos8";
+			type="Empty";
+			colorName="ColorPink";
+			angle=201.40524;
+			id=172;
 		};
 		class Item59
 		{
 			dataType="Marker";
-			position[]={4668.0239,367.69116,7015.189};
-			name="A3E_ExtractionSpawnPos8";
-			type="Empty";
-			colorName="ColorPink";
-			id=172;
-			atlOffset=-8.5600586;
-		};
-		class Item60
-		{
-			dataType="Marker";
-			position[]={4859.7754,398.3042,5156.0908};
-			name="A3E_ExtractionPos8";
+			position[]={2916.7637,96.460052,893.33411};
+			name="A3E_CarExtractionPos8";
 			type="Empty";
 			colorName="ColorPink";
 			id=173;
-			atlOffset=3.0517578e-005;
+			atlOffset=5.3405762e-005;
 		};
-		class Item61
+		class Item60
 		{
 			dataType="Trigger";
-			position[]={4859.7764,398.30408,5156.0938};
+			position[]={2916.7642,96.459999,893.33752};
 			class Attributes
 			{
 				sizeA=0;
@@ -1014,20 +1007,20 @@ class Mission
 			id=174;
 			type="EmptyDetector";
 		};
-		class Item62
+		class Item61
 		{
 			dataType="Marker";
-			position[]={4839.4546,399.84775,5074.2109};
-			name="A3E_ExtractionPos8_1";
+			position[]={2872.8674,97.972214,900.84973};
+			name="A3E_CarExtractionPos8_1";
 			type="Empty";
 			colorName="ColorPink";
 			id=175;
-			atlOffset=0.00036621094;
+			atlOffset=0.00035858154;
 		};
-		class Item63
+		class Item62
 		{
 			dataType="Trigger";
-			position[]={4839.4517,399.84683,5074.2119};
+			position[]={2872.865,97.971779,900.85071};
 			class Attributes
 			{
 				sizeA=0;
