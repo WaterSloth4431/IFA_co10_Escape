@@ -2,7 +2,7 @@
 	"Code" : "./Code",
 	"BuildDir" : "./Build",
 	"PackedDir" : "./Packed/",
-	"Missionname" : "co10_Escape",
+	"Missionname" : "IFA3_co10_Escape",
 	"cpbo" : "S:\\ArmA3Work\\Tools\\cpbo\\cpbo.exe",
 	"Subconfigs": [
 
@@ -13,8 +13,8 @@
 	"replace" :
 		{
 			"VERSION" : "1.10",
-			"MISSION" : "Escape",
-			"MISSION_FULL": "co10 Escape",
+			"MISSION" : "IFA3 Escape",
+			"MISSION_FULL": "IFA3 co10 Escape",
 			"PLAYER_INIT" : "this setCaptive true; if(local this) then {{this unlinkItem _x;} forEach ['ItemMap','itemGPS','B_UavTerminal'];};",
 			"GAMETYPE" : "Escape"
 		},
@@ -694,7 +694,7 @@
 		},
         {
 			"name" : "Vinjesvingen",
-			"class" : "tem_vinjesvingenc",
+			"class" : "tem_vinjesvingen",
 			"path" : "./Islands/vinjesvingen/",
 			"replace" :
 				{
@@ -724,7 +724,7 @@
 		},
         {
 			"name" : "Summa",
-			"class" : "tem_summa",
+			"class" : "tem_summas",
 			"path" : "./Islands/summa/",
 			"replace" :
 				{
@@ -734,7 +734,7 @@
 		},
         {
 			"name" : "SummaW",
-			"class" : "tem_summawcup",
+			"class" : "tem_summaw",
 			"path" : "./Islands/SummaW/",
 			"replace" :
 				{
@@ -744,7 +744,7 @@
 		},
 		{
 			"name" : "Ihantala",
-			"class" : "tem_ihantala",
+			"class" : "tem_ihantalaww",
 			"path" : "./Islands/Ihantala/",
 			"replace" :
 				{
@@ -754,7 +754,7 @@
 		},
         {
 			"name" : "IhantalaW",
-			"class" : "tem_ihantalaw",
+			"class" : "tem_ihantalawww",
 			"path" : "./Islands/IhantalaW/",
 			"replace" :
 				{
