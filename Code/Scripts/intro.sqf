@@ -6,16 +6,16 @@ _role1 = "Welcome!"; //In yellow
 _role1names = [profileName]; //In white
 _role2 = "Info:";
 _role2names = ["Welcome to the Server!"]; 
-_role3 = "Mission:";
-_role3names = ["IFA3 co10 Escape"]; 
+_role3 = "Keybinds:";
+_role3names = ["Hold Left Windows Key to Ace interact, Lctrl + left Windows Key to Ace self interact."]; 
 _role4 = "Keybinds:";
 _role4names = ["0 to holster weapon, ctrl+R to check mag, Shift+R to clear jam."]; 
 _role5 = "Keybinds:";
-_role5names = ["Hold Left Windows Key to interact, hold Left Windows Key and Lctrl for self interact."];
+_role5names = ["Ace self interact to change view distance settings."];
 _role6 = "Keybinds:";
 _role6names = ["Make sure to bind User Action 1 in Custom Controls for enhanced movement."];
 _role7 = "Discord:";
-_role7names = ["discord.gg/Tn4a2CwZcY"]; 
+_role7names = ["Discord.gg/yourdiscord"]; 
  
 {
 sleep 2;
