@@ -901,6 +901,16 @@
 				"ISLAND" : "Zagorsk Big Lakes",
 				"ISLANDNAME" : "Zagorsk Big Lakes"
 				}
+		},
+		{
+			"name" : "Staszow",
+			"class" : "Staszow",
+			"path" : "./Islands/Staszow/",
+			"replace" :
+				{
+				"ISLAND" : "Staszow",
+				"ISLANDNAME" : "Staszow"
+				}
 		}
 	],
 	"Missions" : []
