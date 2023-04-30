@@ -30,8 +30,8 @@ addons[]=
 	"A3_Ui_F",
 	"WW2_Core_c_IF_Gui_c",
 	"A3_Modules_F",
-	"A3_Characters_F",
-	"ace_explosives"
+	"A3_Characters_F"
+
 };
 class AddonsMetaData
 {
