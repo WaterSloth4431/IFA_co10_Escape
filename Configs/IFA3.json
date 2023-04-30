@@ -120,6 +120,26 @@
 					"PLAYERUNIT_9" : "LIB_US_Rifleman",
 					"PLAYERUNIT_10" : "LIB_US_MGunner"
 				}
+		},
+		{
+			"name" : "IFA3-US-W",
+			"path" : "./Mods/IFA3 w/",
+			"require" : ["WW2_Core_c_IF_Gui_c","WW2_Assets_c_Characters_Americans_c_US_Army","WW2_Core_c_WW2_EditorPreviews_c"],
+			"replace" :
+				{
+					"MOD" : "IFA Winter US vs GER",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "LIB_US_SMGunner_w",
+					"PLAYERUNIT_2" : "LIB_US_Grenadier_w",
+					"PLAYERUNIT_3" : "LIB_US_MGunner_w",
+					"PLAYERUNIT_4" : "LIB_US_Medic_w",
+					"PLAYERUNIT_5" : "LIB_US_Corporal_w",
+					"PLAYERUNIT_6" : "LIB_US_FC_Rifleman_w",
+					"PLAYERUNIT_7" : "LIB_US_Rifleman_w",
+					"PLAYERUNIT_8" : "LIB_US_FC_Rifleman_w",
+					"PLAYERUNIT_9" : "LIB_US_Rifleman_w",
+					"PLAYERUNIT_10" : "LIB_US_MGunner_w"
+				}
 		}
 	],
 	"Islands": [],
@@ -552,6 +572,13 @@
 			"name" : "co10_Escape_IFA3_SOV_vs_GER"
 		},
 		{
+			"island" : "NF Svartmarka",
+			"sqm": "NF_Svartmarka",
+			"mod" : "IFA3",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_SOV_vs_GER"
+		},
+		{
 			"island" : "Altis",
 			"sqm": "Altis",
 			"mod" : "IFA3-GER",
@@ -974,6 +1001,13 @@
 		{
 			"island" : "Staszow",
 			"sqm": "Staszow",
+			"mod" : "IFA3-GER",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_GER_vs_SOV"
+		},
+		{
+			"island" : "NF Svartmarka",
+			"sqm": "NF_Svartmarka",
 			"mod" : "IFA3-GER",
 			"replace" : {},
 			"name" : "co10_Escape_IFA3_GER_vs_SOV"
@@ -1161,6 +1195,13 @@
 			"name" : "co10_Escape_IFA3_Winter_SOV_vs_GER"
 		},
 		{
+			"island" : "NF Svartmarka Winter",
+			"sqm": "NF_Svartmarka_W",
+			"mod" : "IFA3 w",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_SOV_vs_GER"
+		},
+		{
 			"island" : "Altis",
 			"sqm": "Altis",
 			"mod" : "IFA3-US",
@@ -1586,7 +1627,92 @@
 			"mod" : "IFA3-US",
 			"replace" : {},
 			"name" : "co10_Escape_IFA3_US_vs_GER"
+		},
+		{
+			"island" : "NF Svartmarka",
+			"sqm": "NF_Svartmarka",
+			"mod" : "IFA3-US",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_US_vs_GER"
+		},
+		{
+			"island" : "WeferlingenWinter",
+			"sqm": "WeferlingenW",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "Chernarus_Winter",
+			"sqm": "Chernarus_Winter",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "Winter Panthera",
+			"sqm": "Winthera3",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "Thirsk Winter",
+			"sqm": "ThirskW",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "Napf Island Winter",
+			"sqm": "NapfWinter",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+        {
+			"island" : "ChamW",
+			"sqm": "ChamW",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+        {
+			"island" : "SummaW",
+			"sqm": "SummaW",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "IhantalaW",
+			"sqm": "IhantalaW",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "HellanmaaW",
+			"sqm": "HellanmaaW",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "Vidda",
+			"sqm": "blud_vidda",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
+		},
+		{
+			"island" : "NF Svartmarka Winter",
+			"sqm": "NF_Svartmarka_W",
+			"mod" : "IFA3-US-W",
+			"replace" : {},
+			"name" : "co10_Escape_IFA3_Winter_US_vs_GER"
 		}
+		
 	],
 	"Addons" : [
 		{
