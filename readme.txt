@@ -1,5 +1,5 @@
 IFA3 Escape 1.9
-Note: you can still use the escape compiler in IFA_co10_Escape\Editing_and_Porting\Tools\Compiler\EscapeCompiler.exe in order to pack these changes into all escape mission.
+Note: you can still use the escape compiler in IFA_co10_Escape\Editing_and_Porting\Tools\Compiler\EscapeCompiler.exe in order to pack these changes into all IFA3 escape missions.
 
 
 required Mods:
