@@ -1,5 +1,5 @@
 #include "include\defines.hpp"
-
+#include "taw_vd\GUI.h"
 // Mission Header
 class Header
 {
@@ -14,9 +14,9 @@ OnLoadMissionTime = FALSE;
 dev = "Captain P. Star and Scruffy";
 briefingName = MISSIONNAMEFULL;
 author = "Captain P. Star and Scruffy";
-overviewPicture = "a3\Missions_F_Gamma\data\img\MP_COOP_m03_overview_CA.paa";
+overviewPicture = "escape_overview.jpg";
 overviewText = MISSIONNAMEFULL;
-loadScreen = "escape_banner.paa"; 
+loadScreen = "escape_banner.jpg"; 
 
 EscapeIsland = ISLAND;
 EscapeMod = MOD;
