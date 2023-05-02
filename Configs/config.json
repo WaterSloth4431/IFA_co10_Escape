@@ -932,6 +932,16 @@
 				"ISLANDNAME" : "NF Svartmarka Winter"
 				}
 		},
+		{
+			"name" : "WW2: Neaville (I44)",
+			"class" : "MCN_Neaville",
+			"path" : "./Islands/MCN_Neaville/",
+			"replace" :
+				{
+				"ISLAND" : "WW2: Neaville (I44)",
+				"ISLANDNAME" : "WW2: Neaville (I44)"
+				}
+		}
 	],
 	"Missions" : []
 	

@@ -579,6 +579,13 @@
 			"name" : "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
+			"island" : "WW2: Neaville (I44)",
+			"sqm": "MCN_Neaville",
+			"mod" : "IFA3",
+			"replace" : {},
+			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+		},
+		{
 			"island" : "Altis",
 			"sqm": "Altis",
 			"mod" : "IFA3-GER",
@@ -1008,6 +1015,13 @@
 		{
 			"island" : "NF Svartmarka",
 			"sqm": "NF_Svartmarka",
+			"mod" : "IFA3-GER",
+			"replace" : {},
+			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+		},
+		{
+			"island" : "WW2: Neaville (I44)",
+			"sqm": "MCN_Neaville",
 			"mod" : "IFA3-GER",
 			"replace" : {},
 			"name" : "IFA3_co10_Escape_GER_vs_SOV"
@@ -1631,6 +1645,13 @@
 		{
 			"island" : "NF Svartmarka",
 			"sqm": "NF_Svartmarka",
+			"mod" : "IFA3-US",
+			"replace" : {},
+			"name" : "IFA3_co10_Escape_US_vs_GER"
+		},
+		{
+			"island" : "WW2: Neaville (I44)",
+			"sqm": "MCN_Neaville",
 			"mod" : "IFA3-US",
 			"replace" : {},
 			"name" : "IFA3_co10_Escape_US_vs_GER"
