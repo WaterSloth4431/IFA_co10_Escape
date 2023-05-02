@@ -7,11 +7,12 @@ Required Mods:
 
 Highly Suggested Mods:
 - ACE (No Medical) IFA3 Co10 Escape (my version - https://steamcommunity.com/sharedfiles/filedetails/?id=2969453305)
+	- Mod includes ifa3 ace compat
 - Enhanced Movement
 - DUI Squad Radar
 - Discord rich presence (https://steamcommunity.com/sharedfiles/filedetails/?id=1493485159)
 
-Changes made from orginal mission
+Changes made from orginal mission:
 
 - 13 ww2 themed new templates added
 	- 4 start prisons
@@ -53,4 +54,16 @@ Changes made from orginal mission
 	- turn add nvg and tws scope param off, or it will add nvg's to your ww2 dudes -_-
 
 
+Installation:
 
+- All fully comaptible ww2 Escape Missions have been compiled and zipped in WW2 Missions.zip
+	- params have been set for best expierance IMO, but if you wish to change them, unpack the pbo and edit the includes/params.hpp
+	- Edit the Intro.sqf script to your liking in Scripts/Intro.sqf
+	- If you are not running -Filepatching on your server with your cbasettings.sqf in userconfig file then you can add you cbasettings to the missionfile, my current cbasettings.sqf is in the Editing_and_Porting folder if you wish to use those. Simple replace the cbasettings.sqf in the missionfile and repack.
+
+- You can also clone the repository and run the escapecompiler in Editing_and_Porting\Tools\Compiler if you would like all the available ww2 missions/maps. (note only the 5 recently ported maps (IFA3 Staszow, Nievelle and Northern Fronts Terrains Svartmarka, Svartmarka Winter and Vinjesvingen) are fully compatible with ww2 escape. You may get a heli extract on other maps.
+
+Tools:
+
+- Pbo manager 
+	https://github.com/winseros/pboman3/releases/download/v1.5.0/PBOManager-installer-1.5.0-122.273776a.zip
