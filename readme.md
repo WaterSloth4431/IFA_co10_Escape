@@ -28,7 +28,7 @@
 	- removed roadblocks (for now)
 
 ### Maps:
-- Added IFA3 Staszow, Nievelle and Northern Fronts Terrains Svartmarka, Svartmarka Winter and Vinjesvingen
+- Added IFA3 Staszow, Nievelle and Northern Fronts Terrains Svartmarka, Svartmarka Winter and Vinjesvingen - More coming!
 
 ### Items/GUI:
 - changed starting backpack to IFA3 backpack
