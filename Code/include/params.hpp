@@ -58,7 +58,7 @@ class Params
 		title="Search Chopper Type";
 		values[]={0,1,2};
 		texts[]={"Random (Chooses between Easy and Hard Values)","Easy","Hard"};
-		default = 0;
+		default = 1;
 	};
 	class A3E_Param_Spacer2
     {
@@ -147,7 +147,7 @@ class Params
 		title="Display of markers on map";
 		values[]={0,1,2,3};
 		texts[]={"Always show (with type)","Always show marker but hide type (questionmark)","Show marker upon discovery","Never show markers"};
-		default = 2;
+		default = 1;
 	};
 	class A3E_Param_VehicleLock
 	{
@@ -199,7 +199,7 @@ class Params
 		values[]={0,1};
 		texts[]={"All", "No Goggles and TWS"};
 		livechanges = 1;
-		default = 0;
+		default = 1;
 	};
 	class A3E_Param_Spacer4
     {
