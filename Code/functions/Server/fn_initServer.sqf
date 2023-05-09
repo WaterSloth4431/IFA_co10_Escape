@@ -512,7 +512,10 @@ call A3E_fnc_InitTraps;
             _unit = _x; //(units _guardGroup) select 0;
             _unit setUnitRank "CAPTAIN";
             _unit unlinkItem "ItemCompass";
+            _unit unlinkItem "LIB_GER_ItemCompass";
+            _unit unlinkItem "LIB_GER_ItemCompass_deg";
             _unit unlinkItem "ItemGPS";
+        
 			
 			
 			private _mapItems = missionNamespace getVariable ["A3E_MapItemsUsedInMission",["ItemMap"]];
