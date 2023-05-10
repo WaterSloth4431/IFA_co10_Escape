@@ -114,7 +114,7 @@
 					"PLAYERUNIT_3" : "LIB_US_MGunner",
 					"PLAYERUNIT_4" : "LIB_US_Medic",
 					"PLAYERUNIT_5" : "LIB_US_Corporal",
-					"PLAYERUNIT_6" : "LIB_US_FC_Rifleman",
+					"PLAYERUNIT_6" : "LIB_US_Engineer",
 					"PLAYERUNIT_7" : "LIB_US_Rifleman",
 					"PLAYERUNIT_8" : "LIB_US_FC_Rifleman",
 					"PLAYERUNIT_9" : "LIB_US_Rifleman",
@@ -134,7 +134,7 @@
 					"PLAYERUNIT_3" : "LIB_US_MGunner_w",
 					"PLAYERUNIT_4" : "LIB_US_Medic_w",
 					"PLAYERUNIT_5" : "LIB_US_Corporal_w",
-					"PLAYERUNIT_6" : "LIB_US_FC_Rifleman_w",
+					"PLAYERUNIT_6" : "LIB_US_Engineer_w",
 					"PLAYERUNIT_7" : "LIB_US_Rifleman_w",
 					"PLAYERUNIT_8" : "LIB_US_FC_Rifleman_w",
 					"PLAYERUNIT_9" : "LIB_US_Rifleman_w",
@@ -1733,6 +1733,7 @@
 			"replace" : {},
 			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
 		}
+
 		
 	],
 	"Addons" : [

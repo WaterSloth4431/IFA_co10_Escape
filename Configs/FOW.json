@@ -1,0 +1,44 @@
+{
+	"ParsedFiles" : [],
+	"Mods" : [
+		{
+			"name" : "FOW-USMC",
+			"path" : "./Mods/FOW-USMC/",
+			"require" : ["fow_characters_c"],
+			"replace" :
+				{
+					"MOD" : "FOW USMC vs JP",
+					"PLAYERSIDE" : "EAST",
+					"PLAYERUNIT_1" : "fow_s_usmc_officer",
+					"PLAYERUNIT_2" : "fow_s_usmc_nco",
+					"PLAYERUNIT_3" : "fow_s_usmc_medic",
+					"PLAYERUNIT_4" : "fow_s_usmc_teamleader",
+					"PLAYERUNIT_5" : "fow_s_usmc_at",
+					"PLAYERUNIT_6" : "fow_s_usmc_at_asst",
+					"PLAYERUNIT_7" : "fow_s_usmc_m1919a6_gunner",
+					"PLAYERUNIT_8" : "fow_s_usmc_m1919a6_asst",
+					"PLAYERUNIT_9" : "fow_s_usmc_rifleman_m1903",
+					"PLAYERUNIT_10" : "fow_s_usmc_rifleman_m1912"
+				}
+		}
+		
+	],
+	"Islands": [],
+	"Missions" : [
+		
+		{
+			"island" : "FOW Henderson Airfield",
+			"sqm": "FOW_Henderson",
+			"mod" : "FOW-USMC",
+			"replace" : {},
+			"name" : "FOW_co10_Escape_USMC_vs_JP"
+		}
+		
+	],
+	"Addons" : [
+		{
+			"name" : "FOW",
+			"mods" : ["FOW-USMC"]
+		}
+	]
+}

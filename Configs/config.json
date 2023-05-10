@@ -6,15 +6,16 @@
 	"cpbo" : "S:\\ArmA3Work\\Tools\\cpbo\\cpbo.exe",
 	"Subconfigs": [
 
-		"./Configs/IFA3.json"
+		"./Configs/IFA3.json",
+		"./Configs/FOW.json"
 
 
 	],
 	"replace" :
 		{
 			"VERSION" : "1.10",
-			"MISSION" : "IFA3 Escape",
-			"MISSION_FULL": "IFA3 co10 Escape",
+			"MISSION" : "WW2 Escape",
+			"MISSION_FULL": "WW2 co10 Escape",
 			"PLAYER_INIT" : "this setCaptive true; if(local this) then {{this unlinkItem _x;} forEach ['ItemMap','itemGPS','B_UavTerminal'];};",
 			"GAMETYPE" : "Escape"
 		},
@@ -930,6 +931,16 @@
 				{
 				"ISLAND" : "NF Svartmarka Winter",
 				"ISLANDNAME" : "NF Svartmarka Winter"
+				}
+		},
+		{
+			"name" : "FOW Henderson Airfield",
+			"class" : "fow_map_henderson",
+			"path" : "./Islands/FOW_Henderson/",
+			"replace" :
+				{
+				"ISLAND" : "FOW Henderson Airfield",
+				"ISLANDNAME" : "FOW Henderson Airfield"
 				}
 		},
 		{
