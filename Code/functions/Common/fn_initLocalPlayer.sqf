@@ -26,6 +26,8 @@ AT_Revive_Camera = 1;
 
 [] call A3E_fnc_addUserActions;
 
+player enableStamina false;
+player enableFatigue false;
 removeAllAssignedItems player;
 removeAllWeapons player;
 removeAllItems player;
@@ -33,6 +35,8 @@ removeBackpack player;
 removeVest player;
 removeHeadgear player;
 removeGoggles player;
+player additem "murshun_cigs_cigpack";
+player additem "murshun_cigs_lighter";
 if(hmd player != "") then {
 	private _hmd = hmd player;
 	player unlinkItem _hmd;
