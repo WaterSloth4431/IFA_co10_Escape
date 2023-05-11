@@ -11,12 +11,12 @@ _enemyFrequency = _this select 0;
 
 //Sides
 
-A3E_VAR_Side_Blufor = east;//player side IFA US - east
+A3E_VAR_Side_Blufor = east;//player side IFA US - West
 A3E_VAR_Side_Opfor = west;//enemy side FOW Japanese
 A3E_VAR_Side_Ind = resistance;//independent side FOW Japanese
 
-A3E_VAR_Flag_Opfor = "\fow\fow_structures_p\flags\flag_jap02.paa";
-A3E_VAR_Flag_Ind = "\fow\fow_structures_p\flags\flag_jap03.paa";
+A3E_VAR_Flag_Opfor = "jpflag.jpg";
+A3E_VAR_Flag_Ind = "jpflag.jpg";
 
 A3E_VAR_Side_Blufor_Str = format["%1",A3E_VAR_Side_Blufor];
 A3E_VAR_Side_Opfor_Str = format["%1",A3E_VAR_Side_Opfor];
@@ -48,78 +48,79 @@ a3e_arr_Escape_MilitaryTraffic_CivilianVehicleClasses = [
 switch (_enemyFrequency) do {
     case 1: {//Few (1-3)
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = [
-		"LIB_Kfz1_Hood_sernyt",
-		"LIB_Kfz1_sernyt",
-		"LIB_Kfz1_MG42_sernyt",
-		"fow_v_type97_truck_fuel_ija",
-		"fow_v_type97_truck_ija",
-		"fow_v_type97_truck_open_ija",
-		"fow_v_type97_truck_utility_ija",
-		"fow_v_sdkfz_251_camo_foliage_ger_heer",
-		"fow_v_sdkfz_222_camo_foliage_ger_heer",
-		"fow_ija_type95_HaGo_1_ija",
-		"fow_ija_type95_HaGo_2_ija",
-		"fow_ija_type95_HaGo_3_ija"];
+
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
+"fow_v_type97_truck_fuel_ija",
+"fow_v_type97_truck_ija",
+"fow_v_type97_truck_open_ija",
+"fow_v_type97_truck_utility_ija",
+"fow_ija_type95_HaGo_1_ija",
+"fow_ija_type95_HaGo_2_ija",
+"fow_ija_type95_HaGo_3_ija"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
-		"LIB_Kfz1_Hood_sernyt",
-		"LIB_Kfz1_sernyt",
-		"LIB_Kfz1_MG42_sernyt",
-		"fow_v_type97_truck_fuel_ija",
-		"fow_v_type97_truck_ija",
-		"fow_v_type97_truck_open_ija",
-		"fow_v_type97_truck_utility_ija",
-		"fow_v_sdkfz_251_camo_foliage_ger_heer",
-		"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
+"fow_v_type97_truck_fuel_ija",
+"fow_v_type97_truck_ija",
+"fow_v_type97_truck_open_ija",
+"fow_v_type97_truck_utility_ija"];
     };
     case 2: {//Some (4-6)
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = [
-		"LIB_Kfz1_Hood_sernyt",
-		"LIB_Kfz1_sernyt",
-		"LIB_Kfz1_MG42_sernyt",
-		"fow_v_type97_truck_fuel_ija",
-		"fow_v_type97_truck_ija",
-		"fow_v_type97_truck_open_ija",
-		"fow_v_type97_truck_utility_ija",
-		"fow_v_sdkfz_251_camo_foliage_ger_heer",
-		"fow_v_sdkfz_222_camo_foliage_ger_heer",
-		"fow_ija_type95_HaGo_1_ija",
-		"fow_ija_type95_HaGo_2_ija",
-		"fow_ija_type95_HaGo_3_ija"];
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
+"fow_v_type97_truck_fuel_ija",
+"fow_v_type97_truck_ija",
+"fow_v_type97_truck_open_ija",
+"fow_v_type97_truck_utility_ija",
+"fow_ija_type95_HaGo_1_ija",
+"fow_ija_type95_HaGo_2_ija",
+"fow_ija_type95_HaGo_3_ija"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
-		"LIB_Kfz1_Hood_sernyt",
-		"LIB_Kfz1_sernyt",
-		"LIB_Kfz1_MG42_sernyt",
-		"fow_v_type97_truck_fuel_ija",
-		"fow_v_type97_truck_ija",
-		"fow_v_type97_truck_open_ija",
-		"fow_v_type97_truck_utility_ija",
-		"fow_v_sdkfz_251_camo_foliage_ger_heer",
-		"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
+"fow_v_type97_truck_fuel_ija",
+"fow_v_type97_truck_ija",
+"fow_v_type97_truck_open_ija",
+"fow_v_type97_truck_utility_ija"];
     };
     default {//A lot (7-8)
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses = [
-		"LIB_Kfz1_Hood_sernyt",
-		"LIB_Kfz1_sernyt",
-		"LIB_Kfz1_MG42_sernyt",
-		"fow_v_type97_truck_fuel_ija",
-		"fow_v_type97_truck_ija",
-		"fow_v_type97_truck_open_ija",
-		"fow_v_type97_truck_utility_ija",
-		"fow_v_sdkfz_251_camo_foliage_ger_heer",
-		"fow_v_sdkfz_222_camo_foliage_ger_heer",
-		"fow_ija_type95_HaGo_1_ija",
-		"fow_ija_type95_HaGo_2_ija",
-		"fow_ija_type95_HaGo_3_ija"];
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
+"fow_v_type97_truck_fuel_ija",
+"fow_v_type97_truck_ija",
+"fow_v_type97_truck_open_ija",
+"fow_v_type97_truck_utility_ija",
+"fow_ija_type95_HaGo_1_ija",
+"fow_ija_type95_HaGo_2_ija",
+"fow_ija_type95_HaGo_3_ija"];
         a3e_arr_Escape_MilitaryTraffic_EnemyVehicleClasses_IND = [
-		"LIB_Kfz1_Hood_sernyt",
-		"LIB_Kfz1_sernyt",
-		"LIB_Kfz1_MG42_sernyt",
-		"fow_v_type97_truck_fuel_ija",
-		"fow_v_type97_truck_ija",
-		"fow_v_type97_truck_open_ija",
-		"fow_v_type97_truck_utility_ija",
-		"fow_v_sdkfz_251_camo_foliage_ger_heer",
-		"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
+"fow_v_type97_truck_fuel_ija",
+"fow_v_type97_truck_ija",
+"fow_v_type97_truck_open_ija",
+"fow_v_type97_truck_utility_ija"];
     };
 };
 
@@ -127,19 +128,19 @@ switch (_enemyFrequency) do {
 a3e_arr_Escape_InfantryTypes = [
 	"fow_s_ija_officer",
 	"fow_s_ija_nco",
-	"fow_s_ija_nco",
+	"fow_s_ija_f_nco",
 	"fow_s_ija_medic",
-	"fow_s_ija_medic",
+	"fow_s_ija_f_medic",
 	"fow_s_ija_rifleman",
+	"fow_s_ija_f_rifleman",
 	"fow_s_ija_rifleman",
-	"fow_s_ija_rifleman",
-	"fow_s_ija_rifleman",
+	"fow_s_ija_f_rifleman",
 	"fow_s_ija_rifleman_at",
 	"fow_s_ija_rifleman_at",
 	"fow_s_ija_type99_asst",
-	"fow_s_ija_type99_asst",
+	"fow_s_ija_f_type99_asst",
 	"fow_s_ija_type99_gunner",
-	"fow_s_ija_type99_gunner"];
+	"fow_s_ija_f_type99_gunner"];
 a3e_arr_Escape_InfantryTypes_Ind = [
 	"fow_s_ija_snlf_nco",
 	"fow_s_ija_snlf_nco",
@@ -191,48 +192,48 @@ a3e_arr_recon_I_InfantryTypes = [
 
 // Random array. A roadblock has a manned vehicle. This array contains possible manned vehicles (can be of any kind, like cars, armored and statics).
 a3e_arr_Escape_RoadBlock_MannedVehicleTypes = [
-	"LIB_Kfz1_MG42_sernyt",
-	"fow_v_sdkfz_251_camo_foliage_ger_heer",
-	"fow_v_sdkfz_222_camo_foliage_ger_heer",
+	"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+	"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+	"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
 	"fow_w_6Pounder_ija",
 	"fow_w_type92_tripod_ija",
 	"fow_w_type92_tripod_low_s_ija",
 	"fow_w_type92_tripod_low_ija"];
 a3e_arr_Escape_RoadBlock_MannedVehicleTypes_Ind = [
-	"LIB_Kfz1_MG42_sernyt",
-	"fow_v_sdkfz_251_camo_foliage_ger_heer",
-	"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+	"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+	"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+	"B_JPArmy_sdkfz_251_camo_foliage_WDL_01"];
 
 // Random array. Vehicle classes (preferrably trucks) transporting enemy reinforcements.
 a3e_arr_Escape_ReinforcementTruck_vehicleClasses = [
-	"LIB_Kfz1_Hood_sernyt",
-	"LIB_Kfz1_sernyt",
-	"LIB_Kfz1_MG42_sernyt",
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
 	"fow_v_type97_truck_ija",
 	"fow_v_type97_truck_open_ija",
-	"fow_v_sdkfz_251_camo_foliage_ger_heer",
-	"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01"];
 a3e_arr_Escape_ReinforcementTruck_vehicleClasses_Ind = [
-	"LIB_Kfz1_Hood_sernyt",
-	"LIB_Kfz1_sernyt",
-	"LIB_Kfz1_MG42_sernyt",
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
 	"fow_v_type97_truck_ija",
-	"fow_v_type97_truck_open_ija",
-	"fow_v_sdkfz_251_camo_foliage_ger_heer",
-	"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+	"fow_v_type97_truck_open_ija"];
 
 
 
 
 // Random array. Motorized search groups are sometimes sent to look for you. This array contains possible class definitions for the vehicles.
 a3e_arr_Escape_MotorizedSearchGroup_vehicleClasses = [
-	"LIB_Kfz1_Hood_sernyt",
-	"LIB_Kfz1_sernyt",
-	"LIB_Kfz1_MG42_sernyt",
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01",
 	"fow_v_type97_truck_ija",
-	"fow_v_type97_truck_open_ija",
-	"fow_v_sdkfz_251_camo_foliage_ger_heer",
-	"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+	"fow_v_type97_truck_open_ija"];
 
 
 
@@ -241,8 +242,8 @@ a3e_arr_Escape_MotorizedSearchGroup_vehicleClasses = [
 
 // Random array. Light armored vehicles guarding the communication centers.
 a3e_arr_ComCenDefence_lightArmorClasses = [
-	"fow_v_sdkfz_251_camo_foliage_ger_heer",
-	"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01"];
 // Random array. Heavy armored vehicles guarding the communication centers.
 a3e_arr_ComCenDefence_heavyArmorClasses = [
 	"fow_ija_type95_HaGo_1_ija",
@@ -253,20 +254,18 @@ a3e_arr_ComCenDefence_heavyArmorClasses = [
 // Random array. Possible static weapon types for communication centers.
 a3e_arr_ComCenStaticWeapons = [
 	"fow_w_6Pounder_ija",
-	"fow_w_type92_tripod_ija",
-	"fow_w_type92_tripod_low_s_ija",
-	"fow_w_type92_tripod_low_ija"];
+	"fow_w_type92_tripod_ija"];
 // A communication center have two parked and empty vehicles of the following possible types.
 a3e_arr_ComCenParkedVehicles = [
-	"LIB_Kfz1_Hood_sernyt",
-	"LIB_Kfz1_sernyt",
-	"LIB_Kfz1_MG42_sernyt",
+"B_JPArmy_Kubelwagen_Hood_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_MG_sernyt_WDL_01",
+"B_JPArmy_Kubelwagen_sernyt_WDL_01",
 	"fow_v_type97_truck_fuel_ija",
 	"fow_v_type97_truck_ija",
 	"fow_v_type97_truck_open_ija",
 	"fow_v_type97_truck_utility_ija",
-	"fow_v_sdkfz_251_camo_foliage_ger_heer",
-	"fow_v_sdkfz_222_camo_foliage_ger_heer"];
+"B_JPArmy_sdkfz_222_camo_foliage_WDL_01",
+"B_JPArmy_sdkfz_251_camo_foliage_WDL_01"];
 
 // Random array. Enemies sometimes use civilian vehicles in their unconventional search for players. The following car types may be used.
 a3e_arr_Escape_EnemyCivilianCarTypes = [
@@ -278,9 +277,7 @@ a3e_arr_Escape_EnemyCivilianCarTypes = [
 // Random array. An ammo depot contains one static weapon of the followin types:
 a3e_arr_Escape_AmmoDepot_StaticWeaponClasses = [
 	"fow_w_6Pounder_ija",
-	"fow_w_type92_tripod_ija",
-	"fow_w_type92_tripod_low_s_ija",
-	"fow_w_type92_tripod_low_ija"];
+	"fow_w_type92_tripod_ija"];
 // An ammo depot have one parked and empty vehicle of the following possible types.
 a3e_arr_Escape_AmmoDepot_ParkedVehicleClasses = a3e_arr_ComCenParkedVehicles;
 

@@ -429,7 +429,6 @@ a3e_arr_AmmoDepotItems pushback ["G_LIB_Scarf2_G", 50, 1, 3];
 a3e_arr_AmmoDepotItems pushback ["G_LIB_Scarf_G", 10, 1, 2];
 a3e_arr_AmmoDepotItems pushback ["ItemMap", 50, 1, 3];
 a3e_arr_AmmoDepotItems pushback ["G_LIB_Scarf_B", 50, 1, 10];
-a3e_arr_AmmoDepotItems pushback ["ItemWatch", 50, 1, 10];
 a3e_arr_AmmoDepotItems pushback ["LIB_GER_Gloves2", 10, 1, 2];
 a3e_arr_AmmoDepotItems pushback ["G_LIB_Binoculars", 10, 1, 2];
 a3e_arr_AmmoDepotItems pushback ["LIB_Binocular_GER", 10, 1, 2];
@@ -440,7 +439,14 @@ a3e_arr_AmmoDepotItems pushback ["LIB_ACC_GW_SB_Empty", 50, 1, 2];
 a3e_arr_AmmoDepotItems pushback ["LIB_ACC_K98_Bayo", 75, 1, 5];
 a3e_arr_AmmoDepotItems pushback ["ItemMap", 50, 1, 3];
 a3e_arr_AmmoDepotItems pushback ["G_LIB_Scarf_B", 50, 1, 10];
-a3e_arr_AmmoDepotItems pushback ["ItemWatch", 50, 1, 10];
+a3e_arr_AmmoDepotItems pushback ["LIB_ToolKit", 50, 1, 3];
+a3e_arr_AmmoDepotItems pushback ["fow_i_whistle", 50, 3, 10];
+a3e_arr_AmmoDepotItems pushback ["ACE_EntrenchingTool", 50, 3, 10];
+a3e_arr_AmmoDepotItems pushback ["ACE_EarPlugs", 100, 3, 10];
+a3e_arr_AmmoDepotItems pushback ["ACE_LIB_LadungPM", 50, 1, 3];
+a3e_arr_AmmoDepotItems pushback ["ACE_LIB_FireCord", 100, 5, 10];
+a3e_arr_AmmoDepotItems pushback ["murshun_cigs_cigpack", 100, 1, 3];
+a3e_arr_AmmoDepotItems pushback ["murshun_cigs_lighter", 100, 1, 3];
 
 
 // Weapons that may show up in civilian cars
