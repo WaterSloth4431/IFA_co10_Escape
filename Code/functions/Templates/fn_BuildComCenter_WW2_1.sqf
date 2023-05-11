@@ -33,7 +33,6 @@ _rotation = _rotation + 180;
 private _obj = objNull;
 _obj = ["Land_Garbage_square5_F",_center,[-3.56168,-2.8699,0],_rotation,314.984] call _fnc_createObject;
 _obj = ["Land_CratesWooden_F",_center,[-15.9076,7.98166,0],_rotation,267.081] call _fnc_createObject;
-_obj = ["Logic",_center,[9,9,9],_rotation,0] call _fnc_createObject;
 _obj = ["Land_Sacks_heap_F",_center,[7.61971,-10.5716,0],_rotation,135] call _fnc_createObject;
 _obj = ["Land_Sacks_heap_F",_center,[-16.1486,5.34055,0],_rotation,265.642] call _fnc_createObject;
 _obj = ["Land_Pallets_stack_F",_center,[9.91244,-10.5511,0],_rotation,285] call _fnc_createObject;

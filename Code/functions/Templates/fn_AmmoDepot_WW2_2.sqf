@@ -79,7 +79,6 @@ _obj = ["Wire",_center,[6.55283,7.61283,0],_rotation,195] call _fnc_createObject
 _obj = ["Wire",_center,[-1.46548,8.59623,0],_rotation,180] call _fnc_createObject;
 _obj = ["Land_HBarrier_3_F",_center,[1.78403,-5.65377,0],_rotation,180] call _fnc_createObject;
 _obj = ["Land_HBarrier_3_F",_center,[-0.590727,-4.77828,0],_rotation,90] call _fnc_createObject;
-_obj = ["Land_Pneu",_center,[-1.95987,-1.96529,0],_rotation,105] call _fnc_createObject;
 _obj = ["AmmoCrates_NoInteractive_Small",_center,[2.681,-3.98483,0.133562],_rotation,90] call _fnc_createObject;
 _obj = ["Land_Pallets_stack_F",_center,[1.0273,-4.02947,-0.000935078],_rotation,269.953] call _fnc_createObject;
 _obj = ["Land_Pallets_F",_center,[-2.71573,-7.27926,0],_rotation,120] call _fnc_createObject;

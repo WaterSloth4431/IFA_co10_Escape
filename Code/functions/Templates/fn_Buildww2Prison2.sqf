@@ -64,7 +64,6 @@ if(isserver) then {
     _obj = ["Land_Garbage_square5_F",_center,[0.122015,-5.5844,0],_rotation,166.535] call _fnc_createObject;
     _obj = ["Barrel2",_center,[-0.0149484,-7.15959,0],_rotation,286.535] call _fnc_createObject;
     _obj = ["Barrel2",_center,[0.836126,-6.95598,0],_rotation,166.535] call _fnc_createObject;
-    _obj = ["Land_Pneu",_center,[-2.1585,-6.25871,0],_rotation,166.535] call _fnc_createObject;
     _obj = ["AmmoCrates_NoInteractive_Small",_center,[3.19355,-7.67668,0.351359],_rotation,166.535] call _fnc_createObject;
     _obj = ["Land_Pallets_F",_center,[-1.59356,-4.32414,0],_rotation,181.535] call _fnc_createObject;
     _obj = ["Land_ClutterCutter_large_F",_center,[-0.107234,-0.0751209,0.0164423],_rotation,0] call _fnc_createObject;
@@ -83,6 +82,7 @@ if(isserver) then {
     _obj = ["Land_ClutterCutter_medium_F",_center,[-4.64239,6.6197,0],_rotation,0] call _fnc_createObject;
     _obj = ["Campfire_burning_F",_center,[-5.69805,6.10066,0],_rotation,179.115] call _fnc_createObject;
     _obj = ["Land_tent_east",_center,[0.219182,0.141188,0],_rotation,0] call _fnc_createObject;
+    _obj allowDamage false;
     _obj = ["Barrel4",_center,[0.979436,-7.7553,0],_rotation,166.535] call _fnc_createObject;
     _obj = ["Barrel4",_center,[1.63422,-7.18352,0],_rotation,271.535] call _fnc_createObject;
     _obj = ["Barrel4",_center,[1.70575,-7.90422,0],_rotation,166.535] call _fnc_createObject;
