@@ -5,18 +5,18 @@ sleep 13; //Wait in seconds before the credits start after player is in-game
 _role1 = "Welcome!"; //In yellow
 _role1names = [profileName]; //In white
 _role2 = "Info:";
-_role2names = ["Welcome to the Server!"]; 
+_role2names = ["Welcome to the IFA Escape Server!"]; 
 _role3 = "Keybinds:";
-_role3names = ["Hold Left Windows Key to Ace interact, Lctrl + left Windows Key to Ace self interact."]; 
+_role3names = ["Shift + V for enhanced movement."]; 
 _role4 = "Keybinds:";
-_role4names = ["0 to holster weapon, ctrl+R to check mag, Shift+R to clear jam."]; 
+_role4names = ["Ace self interact to change view distance settings and repack mags."]; 
 _role5 = "Keybinds:";
-_role5names = ["Ace self interact to change view distance settings."];
-_role6 = "Keybinds:";
-_role6names = ["Make sure to bind User Action 1 in Custom Controls for enhanced movement."];
-_role7 = "Discord:";
-_role7names = ["Discord.gg/yourdiscord"]; 
- 
+_role5names = ["Keybind can be changed in controls > configure addons."];
+_role6 = "Community Info";
+_role6names = ["Open map, then go to Community Info tab for Discord Link"];
+_role7 = "Good Luck!";
+_role7names = ["Good luck on your escape!"]; 
+
 {
 sleep 2;
 _memberFunction = _x select 0;
