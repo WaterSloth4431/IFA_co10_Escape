@@ -49,7 +49,7 @@ private _fnc_createObject = {
     
     if (_car != "") then {
 
-        _obj = [_car,_center,[-9.13738,-0.77026,0.023675],_rotation,7.60484e-005] call _fnc_createObject;
+        _obj = [_car,_center,[9.71173,1.65911,0.58038],_rotation,0.000163014] call _fnc_createObject;
 
         [_obj,A3E_VAR_Side_Opfor] spawn A3E_fnc_AddStaticGunner; 
     };
@@ -60,7 +60,7 @@ private _fnc_createObject = {
     if (count _staticWeaponClasses > 0) then {
         _gun = selectRandom _staticWeaponClasses;
         
-        _obj = [_gun,_center,[7.1013,-1.86695,-0.0121193],_rotation,89.6338] call _fnc_createObject;
+        _obj = [_gun,_center,[-7.49672,-9.37873,0.544191],_rotation,208.336] call _fnc_createObject;
       
 		[_obj,A3E_VAR_Side_Opfor] spawn A3E_fnc_AddStaticGunner; 
     };
@@ -68,31 +68,65 @@ private _fnc_createObject = {
 
 //SPAWN IN THE BASE OBJECTS	
 
-_obj = ["Land_CamoNet_NATO",_center,[0.519272,-2.87395,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_Garbage_square5_F",_center,[-2.10866,-4.24993,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_Pallet_F",_center,[2.39427,-4.49895,-4.76837e-007],_rotation,119.332] call _fnc_createObject;
-_obj = ["Land_BagBunker_Small_F",_center,[3.01683,2.24959,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_GarbageBags_F",_center,[-1.98317,-3.99993,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[0.14183,1.25007,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[-5.60817,-0.374926,0],_rotation,90] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[-3.60817,1.87507,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[-3.23317,-2.37493,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[0.14183,-1.37493,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-1.48317,-1.99993,0],_rotation,90] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-1.60817,1.62507,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-5.35817,1.50007,0],_rotation,270] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-5.23317,-2.12493,0],_rotation,180] call _fnc_createObject;
-_obj = ["Wire",_center,[7.39183,4.00007,0],_rotation,90] call _fnc_createObject;
-_obj = ["Wire",_center,[-4.98317,6.87556,0],_rotation,165] call _fnc_createObject;
-_obj = ["Wire",_center,[3.01707,8.00007,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_CratesWooden_F",_center,[0.39183,-2.49993,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_MetalBarrel_F",_center,[5.26684,0.500565,1.43051e-006],_rotation,105.007] call _fnc_createObject;
-_obj = ["Land_MetalBarrel_F",_center,[5.64183,1.50007,1.43051e-006],_rotation,194.988] call _fnc_createObject;
+_obj = ["fow_Flag_Japan02",_center,[1.61311,-5.38002,0.556],_rotation,1.60122] call _fnc_createObject;
+_obj = ["fow_flag_jap01",_center,[-2.27134,3.46622,2.79651],_rotation,1.60164] call _fnc_createObject;
+_obj = ["fow_flag_jap01",_center,[1.47228,-3.43506,2.44951],_rotation,179.756] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[1.78653,-2.38142,0.301507],_rotation,86.3836] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[-1.97709,-5.99541,0.289259],_rotation,359.417] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[-2.69509,0.97709,0.40029],_rotation,176.323] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[-2.59048,-2.25219,0.347293],_rotation,176.323] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[3.24378,-0.367162,0.289607],_rotation,1.4741] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[3.31602,1.98916,0.264317],_rotation,0.119275] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[-2.47524,-6.06208,0.289259],_rotation,180.882] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[-1.40512,2.63358,1.02278],_rotation,269.06] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[1.68111,2.65328,1.0131],_rotation,270.596] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-1.49582,6.06323,0.982953],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-0.444364,-7.88567,1.40508],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[5.91798,0.272699,0.790946],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-4.88339,-7.61598,0.888395],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-3.87914,-2.04519,1.60434],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[0.272681,-4.06095,1.43857],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[5.00113,-3.5181,0.62618],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-4.15115,3.33805,2.01758],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[3.91458,5.00046,1.71147],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[4.7446,3.62419,1.94922],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-6.05724,2.95123,0.549539],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-4.81667,3.29511,0.899521],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-3.31636,-4.87306,1.85062],_rotation,325.262] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-4.78248,-1.75372,1.03515],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[6.69646,-0.973179,0.532382],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-3.213,6.44048,0.492363],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-3.81627,2.5442,1.64216],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[5.02537,-3.36735,1.37995],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[4.3659,2.2568,2.0265],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[1.28811,4.96693,1.51004],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[0.134678,-5.36278,1.27582],_rotation,1.60164] call _fnc_createObject;
+_obj = ["WW2_BET_PZ_Mauer_End",_center,[-2.02463,2.92591,1.53851],_rotation,1.60164] call _fnc_createObject;
+_obj = ["WW2_BET_PZ_Mauer_End",_center,[0.0262876,2.88468,1.54951],_rotation,0.374658] call _fnc_createObject;
+_obj = ["WW2_BET_PZ_Mauer_End",_center,[1.72241,2.87243,1.54875],_rotation,0.374521] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[-5.57597,5.94285,0.556],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[1.47412,-7.03808,0.556],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[6.40506,5.46375,0.556],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[-5.95787,4.25121,0.64961],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[2.78208,-5.66394,0.56143],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[-5.36687,-9.18462,0.556],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[5.57057,-4.16854,0.556],_rotation,1.60164] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[5.5189,7.1381,0.556],_rotation,1.60164] call _fnc_createObject;
+_obj = ["Land_WW2_BET_RGB_667_Plant_B",_center,[-0.138099,0.55194,1.53551],_rotation,359.513] call _fnc_createObject;
+_obj = ["fow_flag_jap03",_center,[2.94101,-1.37765,2.44851],_rotation,88.9876] call _fnc_createObject;
+_obj = ["young_palm_03",_center,[-4.1682,5.3139,1.41443],_rotation,1.60164] call _fnc_createObject;
+_obj = ["young_palm_03",_center,[4.5495,3.65211,1.99355],_rotation,1.60164] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-3.10715,-7.27878,0.898507],_rotation,270.258] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-1.48727,-7.1702,0.886507],_rotation,270.258] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-3.06196,-4.94612,0.914507],_rotation,270.258] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-1.48832,-4.88412,0.875507],_rotation,270.258] call _fnc_createObject;
+_obj = ["young_palm_02",_center,[3.91518,-5.97215,0.556],_rotation,142.405] call _fnc_createObject;
+_obj = ["palm_01",_center,[4.43985,-2.62804,1.15751],_rotation,1.60164] call _fnc_createObject;
+
 
 // ++++++++FLAG++++++++++//
 
-_obj = ["LIB_FlagCarrier_GER",_center,[5.57008,5.20004,0],_rotation,0] call _fnc_createObject;
-_obj forceFlagTexture A3E_VAR_Flag_Opfor;
+
 
 
 // Weapons
@@ -128,7 +162,8 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-		_box  = ["LIB_BasicWeaponsBox_GER",_center,[-2.40904,1.14478,-0.00231552],_rotation,360] call _fnc_createObject;
+		_box = ["fow_ab_ija_81mm_type97_SMOKE",_center,[-0.404793,1.846,1.58525],_rotation,90.1779] call _fnc_createObject;
+
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -173,7 +208,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-		_box  = ["LIB_WeaponsBox_Big_GER",_center,[-4.11971,0.14822,9.53674e-007],_rotation,360] call _fnc_createObject;
+		_box = ["FOW_AB_IJA_Crate_20mm",_center,[-2.31876,0.51463,1.55197],_rotation,88.5032] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -191,10 +226,11 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 
 	//additional boxes (only spawned if activated in mission parameters)
 
+
 	if((A3E_Param_Waffelbox)==1) then {
-		_box = [a3e_additional_weapon_box_1,_center,[3.40868,-3.35395,0.0133529],_rotation,7.15375e-006] call _fnc_createObject;
+		_box = [a3e_additional_weapon_box_1,_center,[2.8296,-7.52423,0.556],_rotation,88.9443] call _fnc_createObject;
         _box call A3E_fnc_initArsenal;		  
-		_box = [a3e_additional_weapon_box_2,_center,[3.39564,-2.60588,0.0133538],_rotation,2.05252e-006] call _fnc_createObject;
+		_box = [a3e_additional_weapon_box_2,_center,[2.82689,-6.8606,0.555999],_rotation,88.9443] call _fnc_createObject;
         _box call A3E_fnc_initArsenal;				  
 	 };
 
@@ -227,7 +263,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
     
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-		_box  = ["LIB_Mine_Ammo_Box_Ger",_center,[-4.01283,-1.66357,-0.00583076],_rotation,360] call _fnc_createObject;
+		_box = ["FOW_AB_IJA_Crate_Generic",_center,[-2.19068,1.70348,1.57801],_rotation,89.8999] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -290,7 +326,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 	
     if (count _weapons > 0 || count _weaponMagazines > 0 || count _items > 0) then {
 
-		_box  = ["VirtualReammoBox_small_F",_center,[2.29879,-1.65804,-9.53674e-007],_rotation,88.6861] call _fnc_createObject;
+		_box = ["LIB_Lone_Big_Box",_center,[-0.342326,-0.919434,1.55257],_rotation,89.5666] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -333,7 +369,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
     
     if (count _weapons > 0) then {
 
-		_box  = ["LIB_BasicAmmunitionBox_GER",_center,[-3.57706,1.14572,-0.00583029],_rotation,3.10809e-005] call _fnc_createObject;
+		_box = ["FOW_AB_IJA_Crate_Generic_P",_center,[-2.17763,-0.790976,1.55197],_rotation,36.5477] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -373,7 +409,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
     
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-     	_box  = ["Box_Syndicate_WpsLaunch_F",_center,[-2.46779,-1.70219,0],_rotation,1.75486e-006] call _fnc_createObject;
+     	_box = ["LIB_BasicAmmunitionBox_SU",_center,[0.936724,-0.909016,1.56533],_rotation,3.60063e-005] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;

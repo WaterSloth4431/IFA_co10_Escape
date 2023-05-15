@@ -5,7 +5,7 @@
 // WW2 Prison 1
 
 //params and vars already defined in original buildprison function
-private["_obj","_pos"];
+private["_obj","_pos","_yaw","_pitch","_roll"];
 params ["_center","_rotation","_backpack"];
 
 // functions from export script
@@ -13,28 +13,14 @@ _fnc_createObject = {
     params["_className","_centerPos","_relativePos","_rotateDir","_relativeDir"];
     private["_object", "_realPos", "_realDir"];
 
-    _fnc_rotatePos = {
-        private ["_centerPos", "_pos", "_dir"];
-        private ["_px", "_py", "_mpx", "_mpy", "_ma", "_rpx", "_rpy"];
-        _centerPos = _this select 0;
-        _pos = _this select 1;
-        _dir = _this select 2;
-        _px = _pos select 0;
-        _py = _pos select 1;
-        _mpx = _centerPos select 0;
-        _mpy = _centerPos select 1;
-        _ma = _dir;
-        _rpx = ( (_px - _mpx) * cos(_ma) ) + ( (_py - _mpy) * sin(_ma) ) + _mpx;
-        _rpy = (-(_px - _mpx) * sin(_ma) ) + ( (_py - _mpy) * cos(_ma) ) + _mpy;
-        [_rpx, _rpy, (_pos select 2)];
-    };
-
-    _realPos = ([_centerPos, [(_centerPos select 0) + (_relativePos select 0), (_centerPos select 1) + (_relativePos select 1),(_centerPos select 2)], _rotateDir] call _fnc_rotatePos);
+    _realPos = ([_centerPos, [(_centerPos select 0) + (_relativePos select 0), (_centerPos select 1) + (_relativePos select 1),(_relativePos select 2)], _rotateDir] call A3E_fnc_rotatePosition);
     _object = createVehicle [_className, _realPos, [], 0, "CAN_COLLIDE"];
     _object setdir (_relativeDir + _rotateDir);
     _object setPosATL _realPos;
     _object;
 };
+
+
 // set obj to nothing, from export script
 private _obj = objNull;
 
@@ -42,54 +28,76 @@ private _obj = objNull;
 //Stuff that needs to be global. Normally this is the gate and the Loudspeaker
 if(isserver) then {
 // cleanup terrain
-	[_center,25] call a3e_fnc_cleanupTerrain;
+    [_center,25] call a3e_fnc_cleanupTerrain;
 
 // set position of backpack
-	_pos = [_center,_center vectorAdd [0,0,0.5],_rotation] call A3E_fnc_rotatePosition;
-	_backpack setdir ((getdir _backpack) + _rotation);
-	_backpack setPosATL _pos;
+    _pos = [_center,_center vectorAdd [0,0,0.5],_rotation] call A3E_fnc_rotatePosition;
+    _backpack setdir ((getdir _backpack) + _rotation);
+    _backpack setPosATL _pos;
 
 // create loudspeaker
-	_obj = ["Loudspeakers_EP1",_center,[2.09487,2.94069,0],_rotation,271.138] call _fnc_createObject;
-	A3E_PrisonLoudspeakerObject = _obj;
-	publicvariable "A3E_PrisonLoudspeakerObject";
+    _obj = ["Loudspeakers_EP1",_center,[4.346,-0.568,-0.0410004],_rotation,179.435] call _fnc_createObject;
+        A3E_PrisonLoudspeakerObject = _obj;
+        publicvariable "A3E_PrisonLoudspeakerObject";
 
 // create shed
-	_obj = ["Land_Slum_House02_F",_center,[-1.422,-1.056,-0.1],_rotation,0] call _fnc_createObject;
-	A3E_PrisonGateObject = _obj;
+    _obj = ["Land_WW2_Fortification_Trench_Bunker_Big_Doors",_center,[-0.042,-0.871,-0.503],_rotation,180.088] call _fnc_createObject;
+    A3E_PrisonGateObject = _obj;
 
-	_obj = ["LIB_FlagCarrier_GER",_center,[-2.39194,-6.85765,0],_rotation,271.687] call _fnc_createObject;
+    _obj = ["LIB_FlagCarrier_GER",_center,[-7.865,-7.472,-0.0410004],_rotation,271.687] call _fnc_createObject;
     _obj setflagtexture A3E_VAR_Flag_Ind;
 
-    _obj = ["Land_WoodPile_large_F",_center,[3.38516,1.46706,0],_rotation,7.81246] call _fnc_createObject;
-    _obj = ["Land_Garbage_square5_F",_center,[4.16201,-6.86936,0],_rotation,0] call _fnc_createObject;
-    _obj = ["Land_Garbage_square5_F",_center,[-6.48984,-2.54808,0],_rotation,87.7942] call _fnc_createObject;
-    _obj = ["Land_Garbage_square5_F",_center,[0.131008,-0.113017,0],_rotation,0] call _fnc_createObject;
-    _obj = ["Land_Slums02_4m",_center,[-2.42197,-4.8054,0],_rotation,270] call _fnc_createObject;
-    _obj = ["Land_Slums02_4m",_center,[1.57803,-4.8054,0],_rotation,270] call _fnc_createObject;
-    _obj = ["Land_cargo_addon01_V2_F",_center,[3.45303,-0.806376,0],_rotation,270] call _fnc_createObject;
-    _obj = ["Land_Pillow_old_F",_center,[-4.44105,-4.89635,-5.24521e-006],_rotation,87.7942] call _fnc_createObject;
-    _obj = ["Land_Sleeping_bag_F",_center,[-5.20322,-5.1638,0],_rotation,91.325] call _fnc_createObject;
-    _obj = ["Land_Sleeping_bag_brown_F",_center,[-5.89975,-3.09007,0],_rotation,67.1312] call _fnc_createObject;
-    _obj = ["Land_Pillow_grey_F",_center,[-5.06602,-2.49611,-4.29153e-006],_rotation,87.7981] call _fnc_createObject;
-    _obj = ["Land_ClutterCutter_medium_F",_center,[-6.02597,-3.30198,0],_rotation,0] call _fnc_createObject;
-    _obj = ["Land_ClutterCutter_medium_F",_center,[5.88516,-5.62864,0.100491],_rotation,0] call _fnc_createObject;
-    _obj = ["Land_ClutterCutter_large_F",_center,[-0.0276836,-1.33128,0.23],_rotation,0] call _fnc_createObject;
-    _obj = ["Land_WoodenLog_F",_center,[4.38981,-1.67504,8.10623e-006],_rotation,359.995] call _fnc_createObject;
-    _obj = ["Land_WoodPile_F",_center,[3.31729,-2.52806,0],_rotation,292.763] call _fnc_createObject;
-    _obj = ["Land_Sacks_heap_F",_center,[-2.79697,-2.05589,0],_rotation,90] call _fnc_createObject;
-    _obj = ["CUP_A2_barels3",_center,[-6.67905,4.08181,0],_rotation,341.062] call _fnc_createObject;
-    _obj = ["Campfire_burning_F",_center,[6.31192,-6.05442,0],_rotation,0] call _fnc_createObject;
-    _obj = ["CUP_hromada_beden_dekorativniX",_center,[-4.39145,3.61306,0],_rotation,296.062] call _fnc_createObject;
-    _obj = ["fow_p_chair",_center,[5.52359,-4.59056,0],_rotation,330.8] call _fnc_createObject;
-    _obj = ["fow_p_chair",_center,[1.35098,-3.79124,0],_rotation,33.0479] call _fnc_createObject;
-    _obj = ["fow_p_chair",_center,[4.82681,-6.55833,0],_rotation,249.733] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[5.60342,-4.40097,-0.394122],_rotation,88.5814] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[5.48135,-3.54258,-0.433668],_rotation,270.398] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[-5.46055,-4.39414,-0.414246],_rotation,89.5605] call _fnc_createObject;
+_obj = ["Land_WW2_Fortification_Trench_Wall",_center,[-5.89072,-3.49082,-0.414246],_rotation,271.377] call _fnc_createObject;
+_obj = ["young_palm_03",_center,[4.144,-5.969,0.495],_rotation,5.366] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[5.062,-2.103,1.081],_rotation,4.121] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[7.732,-1.325,0.322],_rotation,4.121] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-7.185,-6.269,0.745],_rotation,4.125] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-5.03142,-1.73854,0.416705],_rotation,4.119] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[4.911,-7.025,0.0510001],_rotation,4.452] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-3.374,-7.612,-0.199],_rotation,4.424] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[-7.396,-1.099,0],_rotation,4.444] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[6.919,-5.794,0.877],_rotation,4.13] call _fnc_createObject;
+_obj = ["CUP_koprivy",_center,[0.083,-6.343,1.015],_rotation,4.036] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[6.975,-0.641,0],_rotation,4.121] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[4.53584,-0.0839067,0],_rotation,8.637] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[-4.163,1.364,-0.119],_rotation,8.678] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[-0.092,-1.068,2.335],_rotation,5.621] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[-0.035,1.568,2.319],_rotation,5.567] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[3.29079,-7.13237,0.0434203],_rotation,4.13] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[0.115627,-7.51352,0.147074],_rotation,4.036] call _fnc_createObject;
+_obj = ["CUP_c_GrassAutumn",_center,[-4.62321,-7.37365,0],_rotation,4.125] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-7.195,-7.032,0.0342498],_rotation,4.448] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[2.561,-7.441,-0.34],_rotation,4.384] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-7.487,-0.385,-0.401],_rotation,4.444] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[-2.803,-5.928,0.878035],_rotation,4.125] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[5.939,-1.407,0.363],_rotation,4.121] call _fnc_createObject;
+_obj = ["Land_Bare_boulder_02_F",_center,[5.37,-5.595,1.206],_rotation,273.359] call _fnc_createObject;
+_obj = ["palm_01",_center,[-4.788,0.094,-0.458],_rotation,5.366] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-7.096,-3,0.184],_rotation,1.11] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[6.998,-2.911,0.15],_rotation,358.805] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[4.385,-2.982,0.165],_rotation,0.131] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[4.216,-4.903,0.177],_rotation,358.805] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[1.237,-4.971,0.246],_rotation,359.785] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-4.093,-4.982,0.246],_rotation,359.785] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-6.824,-5.02,0.196],_rotation,359.785] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[6.941,-4.873,0.227],_rotation,358.805] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-4.41,-2.966,0.169],_rotation,359.785] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-1.439,-4.979,0.246],_rotation,359.785] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-8.647,-6.59,-0.0409999],_rotation,87.491] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[-8.977,-1.399,0],_rotation,89.376] call _fnc_createObject;
+_obj = ["asset_palm_11",_center,[8.745,-3.984,0.146],_rotation,90.958] call _fnc_createObject;
+
+
+
+
+
 
 };
 
-//Stuff that can be local and is created duplicated on each client. This reduces network traffic at start.
 
-//create and set flag texture
 
 
 
