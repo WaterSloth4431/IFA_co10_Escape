@@ -32,11 +32,11 @@ _connectedRoad = _roadConnectedTo select 0;
 private _dir = [_roadConnectedTo select 0, _roadConnectedTo  select 1] call BIS_fnc_DirTo;
 
 _pos = getPos _roadSegment;
-
+/*
 if (random 100 < 50) then {
 	_dir = _dir + 180;
 };
-
+*/
 private _templatesAvailable = missionnamespace getvariable ["A3E_RoadblockTemplates",[]];
 
 if(count _templatesAvailable == 0) exitwith {
