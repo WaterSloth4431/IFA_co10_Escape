@@ -9,27 +9,6 @@ class CfgFunctions
 		class Post_Init			{description = "TXU_INFO initialisation function.";postInit = 1;};
 	};
 	};
-	class TAW_VD {
-	tag = "TAWVD";
-
-		class Initialize {
-			file = "taw_vd";
-			class stateTracker {
-				ext = ".fsm";
-				postInit = 1;
-				headerType = -1;
-			};
-				
-			class onSliderChanged {};
-			class onTerrainChanged {};
-			class updateViewDistance {};
-			class openMenu {};
-			class onChar {};
-			class openSaveManager {};
-			class onSavePressed {};
-			class onSaveSelectionChanged {};
-		};
-	};
 	class A3E
 	{
 		class Common

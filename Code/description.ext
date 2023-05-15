@@ -90,7 +90,6 @@ class CfgDebriefingSections
 
 #include "include\params.hpp"
 #include "include\functions.hpp"
-#include "taw_vd\GUI.h"
 #include "Txu_Info\CfgControls.hpp"
 #include "Scripts\outlw_magRepack\MagRepack_config.hpp"
 
