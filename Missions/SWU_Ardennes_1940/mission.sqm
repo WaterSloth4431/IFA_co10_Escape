@@ -1,0 +1,951 @@
+version=54;
+
+binarizationWanted=0;
+sourceName="co10_Escape_BIS_CSAT_vs_NATO";
+addons[]=
+{
+	{* REQUIRE *}
+	"A3_Ui_F",
+	"A3_Modules_F",
+	"A3_Characters_F"
+};
+class AddonsMetaData
+{
+	class List
+	{
+		items=3;
+		class Item0
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item1
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item2
+		{
+			className="A3_Characters_F";
+			name="Arma 3 Alpha - Characters and Clothing";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+
+	};
+};
+randomSeed=1936407;
+class ScenarioData
+{
+	author="T/5 Sloth [509th]";
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Scenario";
+		class Attribute0
+		{
+			property="cba_settings_hasSettingsFile";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					singleType="BOOL";
+					value=1;
+				};
+			};
+		};
+		nAttributes=1;
+	};
+};
+class Intro
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=6;
+		day=24;
+		hour=15;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class Mission
+{
+	class Intel
+	{
+		briefingName="{* MISSION *} {* ISLANDNAME *} {* MOD *} {* VERSION *}";
+		startWeather=0.099999994;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.099999994;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2008;
+		month=6;
+		day=24;
+		hour=15;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+	class Entities
+	{
+		items=54;
+		class Item0
+		{
+			dataType="Marker";
+			position[]={541.83191,180.66794,9734.7822};
+			name="drn_russianSearchChopperStartPosMarker";
+			type="Empty";
+			id=0;
+		};
+		class Item1
+		{
+			dataType="Marker";
+			position[]={5000.0068,18.889965,5000.0044};
+			name="center";
+			type="Empty";
+			colorName="ColorGreen";
+			id=1;
+		};
+		class Item2
+		{
+			dataType="Marker";
+			position[]={572.12134,137.53909,9919.0146};
+			name="drn_insurgentAirfieldMarker";
+			type="Empty";
+			id=2;
+		};
+		class Item3
+		{
+			dataType="Marker";
+			position[]={699.99365,153.22525,9925.3184};
+			name="drn_searchChopperStartPosMarker";
+			type="Empty";
+			id=3;
+			atlOffset=-1.5258789e-005;
+		};
+		class Item4
+		{
+			dataType="Marker";
+			position[]={932.40106,160.21974,9849.4453};
+			name="drn_dropChopperStartPosMarker";
+			type="Empty";
+			id=4;
+			atlOffset=-1.5258789e-005;
+		};
+		class Item5
+		{
+			dataType="Marker";
+			position[]={1460.0331,266.81268,9338.7324};
+			name="TrafficMarker_NorthWest";
+			type="Empty";
+			angle=272.72302;
+			id=5;
+		};
+		class Item6
+		{
+			dataType="Marker";
+			position[]={9890.7266,89.584717,9537.1484};
+			name="TrafficMarker_NorthEast";
+			type="Empty";
+			angle=336.07629;
+			id=6;
+			atlOffset=2.4436874;
+		};
+		class Item7
+		{
+			dataType="Marker";
+			position[]={633.65869,174.06172,2071.0371};
+			name="TrafficMarker_SouthWest";
+			type="Empty";
+			angle=30.67292;
+			id=7;
+		};
+		class Item8
+		{
+			dataType="Marker";
+			position[]={8942.5781,392.49078,7.7572021};
+			name="TrafficMarker_SouthEast";
+			type="Empty";
+			angle=359.77444;
+			id=8;
+			atlOffset=362.36877;
+		};
+		class Item9
+		{
+			dataType="Marker";
+			position[]={8848.9346,245.34282,2601.054};
+			name="A3E_CarExtractionPos6";
+			type="Empty";
+			angle=283.66299;
+			id=9;
+			atlOffset=64.729858;
+		};
+		class Item10
+		{
+			dataType="Marker";
+			position[]={8792.8623,253.30177,2600.8088};
+			name="A3E_CarExtractionPos6_1";
+			type="Empty";
+			angle=283.66299;
+			id=10;
+			atlOffset=73.071777;
+		};
+		class Item11
+		{
+			dataType="Marker";
+			position[]={7715.1689,309.23187,2572.4028};
+			name="A3E_CarExtractionSpawnPos6";
+			type="Empty";
+			angle=86.68277;
+			id=11;
+		};
+		class Item12
+		{
+			dataType="Marker";
+			position[]={9798.1621,214.55707,6397.4771};
+			name="A3E_CarExtractionPos5_1";
+			type="Empty";
+			angle=135.96669;
+			id=18;
+			atlOffset=0.0002746582;
+		};
+		class Item13
+		{
+			dataType="Marker";
+			position[]={9810.125,214.99448,6417.9233};
+			name="A3E_CarExtractionPos5";
+			type="Empty";
+			angle=1.6767203;
+			id=19;
+		};
+		class Item14
+		{
+			dataType="Marker";
+			position[]={8849.8867,192.09239,6520.1499};
+			name="A3E_CarExtractionSpawnPos5";
+			type="Empty";
+			angle=65.726738;
+			id=20;
+		};
+		class Item15
+		{
+			dataType="Marker";
+			position[]={2267.8967,-10.153564,6770.2925};
+			name="A3E_BoatExtractionSpawnPos3";
+			type="Empty";
+			angle=111.98634;
+			id=26;
+			atlOffset=27.756065;
+		};
+		class Item16
+		{
+			dataType="Marker";
+			position[]={7757.3633,76.309143,6131.6089};
+			name="A3E_BoatExtractionPos2_1";
+			type="Empty";
+			angle=357.54111;
+			id=27;
+			atlOffset=121.09342;
+		};
+		class Item17
+		{
+			dataType="Marker";
+			position[]={7474.2378,0.085063934,6393.1895};
+			name="A3E_BoatExtractionPos2";
+			type="Empty";
+			angle=4.3945684;
+			id=28;
+			atlOffset=19.604038;
+		};
+		class Item18
+		{
+			dataType="Marker";
+			position[]={11158.559,0,5116.8452};
+			name="A3E_BoatExtractionSpawnPos2";
+			type="Empty";
+			angle=269.87497;
+			id=29;
+			atlOffset=55.144764;
+		};
+		class Item19
+		{
+			dataType="Marker";
+			position[]={-108.42393,85.549744,10263.29};
+			name="Respawn_east";
+			type="Empty";
+			colorName="ColorRed";
+			id=33;
+			atlOffset=3.4197464;
+		};
+		class Item20
+		{
+			dataType="Marker";
+			position[]={10184.965,11.315669,5.909668};
+			name="Respawn_west";
+			type="Empty";
+			colorName="ColorBlue";
+			id=34;
+			atlOffset=9.5367432e-007;
+		};
+		class Item21
+		{
+			dataType="Marker";
+			position[]={-101.81432,82.129997,10249.956};
+			name="Boot_Hill";
+			type="Empty";
+			id=35;
+		};
+		class Item22
+		{
+			dataType="Marker";
+			position[]={5.7523313,149.74492,1778.8853};
+			name="RoadBlockNullRoad";
+			type="Empty";
+			colorName="ColorRed";
+			angle=83.888313;
+			id=36;
+		};
+		class Item23
+		{
+			dataType="Marker";
+			position[]={3513.6418,113.73991,10214.59};
+			name="TrafficMarker_North";
+			type="Empty";
+			angle=184.02095;
+			id=37;
+			atlOffset=7.6293945e-006;
+		};
+		class Item24
+		{
+			dataType="Marker";
+			position[]={9758.4688,127.99353,2275.9487};
+			name="TrafficMarker_East";
+			type="Empty";
+			angle=209.40869;
+			id=38;
+		};
+		class Item25
+		{
+			dataType="Marker";
+			position[]={1099.4657,406.84399,1228.3809};
+			name="TrafficMarker_South";
+			type="Empty";
+			angle=41.367561;
+			id=39;
+			atlOffset=55.761353;
+		};
+		class Item26
+		{
+			dataType="Marker";
+			position[]={1195.0297,166.98521,4980.667};
+			name="TrafficMarker_West";
+			type="Empty";
+			angle=152.96565;
+			id=40;
+		};
+		class Item27
+		{
+			dataType="Marker";
+			position[]={678.07996,184.69337,9756.6182};
+			name="TrafficMarker_AirField";
+			type="Empty";
+			id=41;
+		};
+		class Item28
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={5000.0024,18.890118,5000.0024};
+				angles[]={6.13234,0,6.1795583};
+			};
+			name="server";
+			id=42;
+			type="Logic";
+		};
+		class Item29
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={4999.9971,18.89045,5000.001};
+				angles[]={6.1284332,0,6.1716499};
+			};
+			name="center";
+			id=43;
+			type="Logic";
+		};
+		class Item30
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={200.4379,243.66724,200.2887};
+				angles[]={0.012000273,0,0.4668456};
+			};
+			name="SouthWest";
+			description="limits used area of the map, together with NorthEast logic";
+			id=44;
+			type="Logic";
+		};
+		class Item31
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={10000.008,131.29539,9999.9814};
+				angles[]={6.0781078,0,6.183517};
+			};
+			name="NorthEast";
+			description="limits used area of the map, together with SouthWest logic";
+			id=45;
+			type="Logic";
+		};
+		class Item32
+		{
+			dataType="Group";
+			side="{* PLAYERSIDE *}";
+			class Entities
+			{
+				items=10;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10185.344,11.405651,9.8598518};
+						angles[]={6.2671871,0,6.2751918};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=6;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="CAPTAIN";
+						init="{* PLAYER_INIT *}";
+						name="p1";
+						isPlayer=1;
+						isPlayable=1;
+					};
+					id=47;
+					type="{* PLAYERUNIT_1 *}";
+					atlOffset=2.8610229e-006;
+				};
+				class Item1
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10183.461,11.475318,8.0678596};
+						angles[]={6.247201,0,6.2511969};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p4";
+						isPlayable=1;
+					};
+					id=48;
+					type="{* PLAYERUNIT_2 *}";
+					atlOffset=0.065997124;
+				};
+				class Item2
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10182.754,11.59625,10.614735};
+						angles[]={6.2471995,0,6.2432065};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p2";
+						isPlayable=1;
+					};
+					id=49;
+					type="{* PLAYERUNIT_3 *}";
+					atlOffset=0.074636459;
+				};
+				class Item3
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10182.668,11.52774,9.2475471};
+						angles[]={6.247201,0,6.2511969};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p3";
+						isPlayable=1;
+					};
+					id=50;
+					type="{* PLAYERUNIT_4 *}";
+					atlOffset=0.050559998;
+				};
+				class Item4
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10184.579,11.382314,7.3076057};
+						angles[]={6.2671871,0,6.2511969};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p5";
+						isPlayable=1;
+					};
+					id=51;
+					type="{* PLAYERUNIT_5 *}";
+					atlOffset=0.031295776;
+				};
+				class Item5
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10186.035,11.343727,7.354969};
+						angles[]={6.2711854,0,0.0039967569};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p6";
+						isPlayable=1;
+					};
+					id=52;
+					type="{* PLAYERUNIT_6 *}";
+					atlOffset=0.00048732758;
+				};
+				class Item6
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10187.522,11.354312,7.7123909};
+						angles[]={6.2671871,0,0.012000273};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.59000003;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p7";
+						isPlayable=1;
+					};
+					id=53;
+					type="{* PLAYERUNIT_7 *}";
+					atlOffset=3.8146973e-006;
+				};
+				class Item7
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10188.566,11.380274,8.5522346};
+						angles[]={6.2671871,0,0.012000273};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p8";
+						isPlayable=1;
+					};
+					id=54;
+					type="{* PLAYERUNIT_8 *}";
+					atlOffset=2.8610229e-006;
+				};
+				class Item8
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10189.387,11.395755,9.6459846};
+						angles[]={6.2751846,0,0.0039967569};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						isPlayable=1;
+					};
+					id=55;
+					type="{* PLAYERUNIT_9 *}";
+					atlOffset=1.9073486e-006;
+				};
+				class Item9
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={10190.008,11.404199,10.731922};
+						angles[]={6.2791886,0,0.0039967569};
+					};
+					side="{* PLAYERSIDE *}";
+					flags=4;
+					class Attributes
+					{
+						skill=0.60000002;
+						rank="LIEUTENANT";
+						init="{* PLAYER_INIT *}";
+						name="p10";
+						isPlayable=1;
+					};
+					id=56;
+					type="{* PLAYERUNIT_10 *}";
+					atlOffset=9.5367432e-007;
+				};
+			};
+			class Attributes
+			{
+			};
+			id=46;
+			atlOffset=2.8610229e-006;
+		};
+		class Item33
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={8849.0342,180.61455,2601.0889};
+				angles[]={0,0,0.016002094};
+			};
+			title="Extraction 6";
+			id=59;
+		};
+		class Item34
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={8792.998,180.42805,2600.8867};
+			};
+			title="Extraction 6";
+			id=60;
+			atlOffset=0.19805908;
+		};
+		class Item35
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9798.0156,214.55762,6397.4746};
+				angles[]={6.259192,0,6.2791886};
+			};
+			title="Extraction 5";
+			id=63;
+			atlOffset=0.0002746582;
+		};
+		class Item36
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={9810.082,214.99614,6417.9385};
+				angles[]={6.2631927,6.2399487,6.251195};
+			};
+			title="Extraction 5";
+			id=64;
+		};
+		class Item37
+		{
+			dataType="Marker";
+			position[]={5975.0518,-7.0910549,6096.9102};
+			name="A3E_BoatExtractionPos4_1";
+			type="Empty";
+			angle=4.5686827;
+			id=67;
+			atlOffset=22.477737;
+		};
+		class Item38
+		{
+			dataType="Marker";
+			position[]={6125.71,16.094109,6183.6392};
+			name="A3E_BoatExtractionPos4";
+			type="Empty";
+			angle=1.6769994;
+			id=68;
+			atlOffset=22.177681;
+		};
+		class Item39
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={6125.6758,23.686743,6183.5718};
+			};
+			title="Extraction 4";
+			id=69;
+			atlOffset=29.779858;
+		};
+		class Item40
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={5975.042,3.0314674,6096.9092};
+				angles[]={0,6.2399487,0};
+			};
+			title="Extraction 4";
+			id=70;
+			atlOffset=32.600674;
+		};
+		class Item41
+		{
+			dataType="Marker";
+			position[]={4202.1387,-71.881592,3095.8137};
+			name="A3E_BoatExtractionSpawnPos4";
+			type="Empty";
+			angle=31.93177;
+			id=71;
+			atlOffset=8.8724823;
+		};
+		class Item42
+		{
+			dataType="Marker";
+			position[]={3395.0325,-14.305304,8171.8232};
+			name="A3E_BoatExtractionPos3";
+			type="Empty";
+			id=76;
+		};
+		class Item43
+		{
+			dataType="Marker";
+			position[]={3490.4387,-28.169487,8010.2202};
+			name="A3E_BoatExtractionPos3_1";
+			type="Empty";
+			id=77;
+			atlOffset=40.55014;
+		};
+		class Item44
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={3490.5042,-28.168045,8010.3555};
+			};
+			title="Extraction 3";
+			id=78;
+			atlOffset=40.55014;
+		};
+		class Item45
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={3394.947,-14.242992,8171.9292};
+				angles[]={5.9626355,0,5.9807563};
+			};
+			title="Extraction 3";
+			id=79;
+			atlOffset=9.5367432e-007;
+		};
+		class Item46
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7756.9214,27.006786,6132.2656};
+			};
+			title="Extraction 2";
+			id=80;
+			atlOffset=71.736221;
+		};
+		class Item47
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={7474.5576,0,6393.3945};
+			};
+			title="Extraction 2";
+			id=81;
+			atlOffset=19.454361;
+		};
+		class Item48
+		{
+			dataType="Marker";
+			position[]={5216.8623,3.1098709,4684.5698};
+			name="A3E_BoatExtractionPos1_1";
+			type="Empty";
+			angle=357.54086;
+			id=85;
+			atlOffset=95.108322;
+		};
+		class Item49
+		{
+			dataType="Marker";
+			position[]={5145.6919,-5.4608397,4858.9653};
+			name="A3E_BoatExtractionPos1";
+			type="Empty";
+			angle=4.395;
+			id=86;
+			atlOffset=2.3962207;
+		};
+		class Item50
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={5216.8652,-41.12532,4684.5679};
+			};
+			title="Extraction 1";
+			id=87;
+			atlOffset=50.874237;
+		};
+		class Item51
+		{
+			dataType="Comment";
+			class PositionInfo
+			{
+				position[]={5145.688,-5.466826,4858.9409};
+			};
+			title="Extraction 1";
+			id=88;
+			atlOffset=2.3962207;
+		};
+		class Item52
+		{
+			dataType="Marker";
+			position[]={2914.1545,0,1505.5259};
+			name="A3E_BoatExtractionSpawnPos1";
+			type="Empty";
+			angle=51.588882;
+			id=89;
+			atlOffset=41.092453;
+		};
+		class Item53
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={8810.9355,91.220001,676.65955};
+				angles[]={6.259192,0,6.1874771};
+			};
+			areaSize[]={5,-1,5};
+			flags=1;
+			id=109;
+			type="ModuleHideTerrainObjects_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="SCALAR";
+							value=15;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#hideLocally";
+					expression="_this setVariable [""#hideLocally"",_value]";
+					class Value
+					{
+						class data
+						{
+							singleType="BOOL";
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+	};
+};
+class OutroLoose
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=6;
+		day=24;
+		hour=15;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};
+class OutroWin
+{
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2008;
+		month=6;
+		day=24;
+		hour=15;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
+	};
+};

@@ -143,1598 +143,1619 @@
 		}
 	],
 	"Islands": [],
-	"Missions" : [
+	"Missions": [
 		{
-			"island" : "Altis",
+			"island": "Altis",
 			"sqm": "Altis",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Stratis",
+			"island": "Stratis",
 			"sqm": "Stratis",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Tanoa",
+			"island": "Tanoa",
 			"sqm": "Tanoa",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Malden 2035",
+			"island": "Malden 2035",
 			"sqm": "Malden",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Livonia",
+			"island": "Livonia",
 			"sqm": "Enoch",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Weferlingen",
+		{
+			"island": "Weferlingen",
 			"sqm": "Weferlingen",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Gabreta",
+		{
+			"island": "Gabreta",
 			"sqm": "Gabreta",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Polanek",
+		{
+			"island": "Polanek",
 			"sqm": "Polanek",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Bornholm",
+			"island": "Bornholm",
 			"sqm": "Bornholm",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Chernarus",
+			"island": "Chernarus",
 			"sqm": "Chernarus",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Chernarus_Summer",
+			"island": "Chernarus_Summer",
 			"sqm": "Chernarus_Summer",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Chernarus_2020",
+			"island": "Chernarus_2020",
 			"sqm": "Chernarus_2020",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Podagorsk",
+			"island": "Podagorsk",
 			"sqm": "FDF_Isle1_a",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Panthera",
+			"island": "Panthera",
 			"sqm": "Panthera3",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Lingor",
+			"island": "Lingor",
 			"sqm": "Lingor3",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Abramia",
+			"island": "Abramia",
 			"sqm": "Abramia",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Celle",
+			"island": "Celle",
 			"sqm": "mbg_celle2",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Thirsk",
+			"island": "Thirsk",
 			"sqm": "Thirsk",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Esseker",
+			"island": "Esseker",
 			"sqm": "Esseker",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Australia",
+			"island": "Australia",
 			"sqm": "Australia",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Everon",
+			"island": "Everon",
 			"sqm": "Eden",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Malden",
+			"island": "Malden",
 			"sqm": "Abel",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Kolgujev",
+			"island": "Kolgujev",
 			"sqm": "Cain",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Nogova",
+			"island": "Nogova",
 			"sqm": "Noe",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Beketov",
+			"island": "Beketov",
 			"sqm": "Beketov",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Isles of Cumbrae",
+			"island": "Isles of Cumbrae",
 			"sqm": "rof_isles_of_cumbrae",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Schwemlitz",
+			"island": "Schwemlitz",
 			"sqm": "Schwemlitz",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Rosche",
+			"island": "Rosche",
 			"sqm": "Rosche",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Sahrani",
+			"island": "Sahrani",
 			"sqm": "Sara",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "United Sahrani",
+			"island": "United Sahrani",
 			"sqm": "Sara_dbe1",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Kastellorizo",
+			"island": "Kastellorizo",
 			"sqm": "Kastellorizo",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Kerama",
+			"island": "Kerama",
 			"sqm": "Kerama",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Valtatie 5",
+			"island": "Valtatie 5",
 			"sqm": "VT5",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Virolahti",
+			"island": "Virolahti",
 			"sqm": "VT7",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Ruha",
+			"island": "Ruha",
 			"sqm": "Ruha",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Prei Khmaoch Luong Legacy",
+			"island": "Prei Khmaoch Luong Legacy",
 			"sqm": "prei_khmaoch_luong",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Prei Khmaoch Luong RHS",
+		{
+			"island": "Prei Khmaoch Luong RHS",
 			"sqm": "rhspkl",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Yellowstone",
+			"island": "Yellowstone",
 			"sqm": "yellowstone",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Tembelan",
+			"island": "Tembelan",
 			"sqm": "Tembelan",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Utes",
+			"island": "Utes",
 			"sqm": "utes",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Bukovina",
+			"island": "Bukovina",
 			"sqm": "Bootcamp_ACR",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Bystrica",
+			"island": "Bystrica",
 			"sqm": "Woodland_ACR",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Vidda",
+			"island": "Vidda",
 			"sqm": "blud_vidda",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "MSKE",
+			"island": "MSKE",
 			"sqm": "mske",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Napf Island",
+			"island": "Napf Island",
 			"sqm": "napf",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Vinjesvingen",
+		{
+			"island": "Vinjesvingen",
 			"sqm": "vinjesvingen",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Cham",
+		{
+			"island": "Cham",
 			"sqm": "Cham",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Summa",
+		{
+			"island": "Summa",
 			"sqm": "Summa",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Ihantala",
+			"island": "Ihantala",
 			"sqm": "Ihantala",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Hellanmaa",
+			"island": "Hellanmaa",
 			"sqm": "Hellanmaa",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Mull of Kintyre",
+		{
+			"island": "Mull of Kintyre",
 			"sqm": "rof_mok",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Scottish Highlands",
+		{
+			"island": "Scottish Highlands",
 			"sqm": "ScottishHighlands",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "County Fermanagh",
+		{
+			"island": "County Fermanagh",
 			"sqm": "CountyFermanagh",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
-        {
-			"island" : "Fapovo",
+		{
+			"island": "Fapovo",
 			"sqm": "Fapovo",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Colombia",
+			"island": "Colombia",
 			"sqm": "UMB_Colombia",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Pulau",
+			"island": "Pulau",
 			"sqm": "Pulau",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Niakala",
+			"island": "Niakala",
 			"sqm": "Niakala",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Sumava",
+			"island": "Sumava",
 			"sqm": "Sumava",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Maksniemi",
+			"island": "Maksniemi",
 			"sqm": "Maksniemi",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Zagorsk Big Lakes",
+			"island": "Zagorsk Big Lakes",
 			"sqm": "zagor_zagorsk_biglakes",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Staszow",
+			"island": "Staszow",
 			"sqm": "Staszow",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "NF Svartmarka",
+			"island": "NF Svartmarka",
 			"sqm": "NF_Svartmarka",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "WW2: Neaville (I44)",
+			"island": "WW2: Neaville (I44)",
 			"sqm": "MCN_Neaville",
-			"mod" : "IFA3",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_SOV_vs_GER"
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
 		},
 		{
-			"island" : "Altis",
+			"island": "WW2: Montherme, Ardennes 1940",
+			"sqm": "SWU_Ardennes_1940",
+			"mod": "IFA3",
+			"replace": {},
+			"name": "IFA3_co10_Escape_SOV_vs_GER"
+		},
+		{
+			"island": "Altis",
 			"sqm": "Altis",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Stratis",
+			"island": "Stratis",
 			"sqm": "Stratis",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Tanoa",
+			"island": "Tanoa",
 			"sqm": "Tanoa",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Malden 2035",
+			"island": "Malden 2035",
 			"sqm": "Malden",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Livonia",
+			"island": "Livonia",
 			"sqm": "Enoch",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Weferlingen",
+		{
+			"island": "Weferlingen",
 			"sqm": "Weferlingen",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Gabreta",
+		{
+			"island": "Gabreta",
 			"sqm": "Gabreta",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Polanek",
+		{
+			"island": "Polanek",
 			"sqm": "Polanek",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Bornholm",
+			"island": "Bornholm",
 			"sqm": "Bornholm",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Chernarus",
+			"island": "Chernarus",
 			"sqm": "Chernarus",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Chernarus_Summer",
+			"island": "Chernarus_Summer",
 			"sqm": "Chernarus_Summer",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Chernarus_2020",
+			"island": "Chernarus_2020",
 			"sqm": "Chernarus_2020",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Podagorsk",
+			"island": "Podagorsk",
 			"sqm": "FDF_Isle1_a",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Panthera",
+			"island": "Panthera",
 			"sqm": "Panthera3",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Lingor",
+			"island": "Lingor",
 			"sqm": "Lingor3",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Abramia",
+			"island": "Abramia",
 			"sqm": "Abramia",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Celle",
+			"island": "Celle",
 			"sqm": "mbg_celle2",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Thirsk",
+			"island": "Thirsk",
 			"sqm": "Thirsk",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Esseker",
+			"island": "Esseker",
 			"sqm": "Esseker",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Australia",
+			"island": "Australia",
 			"sqm": "Australia",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Everon",
+			"island": "Everon",
 			"sqm": "Eden",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Malden",
+			"island": "Malden",
 			"sqm": "Abel",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Kolgujev",
+			"island": "Kolgujev",
 			"sqm": "Cain",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Nogova",
+			"island": "Nogova",
 			"sqm": "Noe",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Beketov",
+			"island": "Beketov",
 			"sqm": "Beketov",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Isles of Cumbrae",
+			"island": "Isles of Cumbrae",
 			"sqm": "rof_isles_of_cumbrae",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Schwemlitz",
+			"island": "Schwemlitz",
 			"sqm": "Schwemlitz",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Rosche",
+			"island": "Rosche",
 			"sqm": "Rosche",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Sahrani",
+			"island": "Sahrani",
 			"sqm": "Sara",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "United Sahrani",
+			"island": "United Sahrani",
 			"sqm": "Sara_dbe1",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Kastellorizo",
+			"island": "Kastellorizo",
 			"sqm": "Kastellorizo",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Kerama",
+			"island": "Kerama",
 			"sqm": "Kerama",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Valtatie 5",
+			"island": "Valtatie 5",
 			"sqm": "VT5",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Virolahti",
+			"island": "Virolahti",
 			"sqm": "VT7",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Ruha",
+			"island": "Ruha",
 			"sqm": "Ruha",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Prei Khmaoch Luong Legacy",
+			"island": "Prei Khmaoch Luong Legacy",
 			"sqm": "prei_khmaoch_luong",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Prei Khmaoch Luong RHS",
+		{
+			"island": "Prei Khmaoch Luong RHS",
 			"sqm": "rhspkl",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Yellowstone",
+			"island": "Yellowstone",
 			"sqm": "yellowstone",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Tembelan",
+			"island": "Tembelan",
 			"sqm": "Tembelan",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Utes",
+			"island": "Utes",
 			"sqm": "utes",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Bukovina",
+			"island": "Bukovina",
 			"sqm": "Bootcamp_ACR",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Bystrica",
+			"island": "Bystrica",
 			"sqm": "Woodland_ACR",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Vidda",
+			"island": "Vidda",
 			"sqm": "blud_vidda",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "MSKE",
+			"island": "MSKE",
 			"sqm": "mske",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Napf Island",
+			"island": "Napf Island",
 			"sqm": "napf",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Vinjesvingen",
+		{
+			"island": "Vinjesvingen",
 			"sqm": "vinjesvingen",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Cham",
+		{
+			"island": "Cham",
 			"sqm": "Cham",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Summa",
+		{
+			"island": "Summa",
 			"sqm": "Summa",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Ihantala",
+			"island": "Ihantala",
 			"sqm": "Ihantala",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Hellanmaa",
+			"island": "Hellanmaa",
 			"sqm": "Hellanmaa",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Mull of Kintyre",
+		{
+			"island": "Mull of Kintyre",
 			"sqm": "rof_mok",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Scottish Highlands",
+		{
+			"island": "Scottish Highlands",
 			"sqm": "ScottishHighlands",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "County Fermanagh",
+		{
+			"island": "County Fermanagh",
 			"sqm": "CountyFermanagh",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
-        {
-			"island" : "Fapovo",
+		{
+			"island": "Fapovo",
 			"sqm": "Fapovo",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Colombia",
+			"island": "Colombia",
 			"sqm": "UMB_Colombia",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Pulau",
+			"island": "Pulau",
 			"sqm": "Pulau",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Niakala",
+			"island": "Niakala",
 			"sqm": "Niakala",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Sumava",
+			"island": "Sumava",
 			"sqm": "Sumava",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Maksniemi",
+			"island": "Maksniemi",
 			"sqm": "Maksniemi",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Zagorsk Big Lakes",
+			"island": "Zagorsk Big Lakes",
 			"sqm": "zagor_zagorsk_biglakes",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Staszow",
+			"island": "Staszow",
 			"sqm": "Staszow",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "NF Svartmarka",
+			"island": "NF Svartmarka",
 			"sqm": "NF_Svartmarka",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "WW2: Neaville (I44)",
+			"island": "WW2: Neaville (I44)",
 			"sqm": "MCN_Neaville",
-			"mod" : "IFA3-GER",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_GER_vs_SOV"
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
 		},
 		{
-			"island" : "Sefrou-Ramal",
+			"island": "WW2: Montherme, Ardennes 1940",
+			"sqm": "SWU_Ardennes_1940",
+			"mod": "IFA3-GER",
+			"replace": {},
+			"name": "IFA3_co10_Escape_GER_vs_SOV"
+		},
+		{
+			"island": "Sefrou-Ramal",
 			"sqm": "Sefrou-Ramal",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Dingor",
+			"island": "Dingor",
 			"sqm": "Dingor",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Isla Duala",
+			"island": "Isla Duala",
 			"sqm": "IslaDuala3",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Takistan",
+			"island": "Takistan",
 			"sqm": "Takistan",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Zargabad",
+			"island": "Zargabad",
 			"sqm": "Zargabad",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Capraia",
+			"island": "Capraia",
 			"sqm": "IsolaDiCapraia",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Clafghan",
+			"island": "Clafghan",
 			"sqm": "Clafghan",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Al Rayak",
+			"island": "Al Rayak",
 			"sqm": "pja310",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Lythium",
+			"island": "Lythium",
 			"sqm": "Lythium",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Fallujah",
+			"island": "Fallujah",
 			"sqm": "Fallujah",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Diyala",
+			"island": "Diyala",
 			"sqm": "DYA",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Porto",
+			"island": "Porto",
 			"sqm": "Porto",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Southeast Angola",
+			"island": "Southeast Angola",
 			"sqm": "seangola",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Reshmaan",
+			"island": "Reshmaan",
 			"sqm": "reshmaan",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Anizay",
+			"island": "Anizay",
 			"sqm": "tem_anizay",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
 		{
-			"island" : "Kujari",
+			"island": "Kujari",
 			"sqm": "Kujari",
-			"mod" : "IFA3 d",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_UK_vs_GER"
+			"mod": "IFA3 d",
+			"replace": {},
+			"name": "IFA3_co10_Escape_UK_vs_GER"
 		},
-        {
-			"island" : "WeferlingenWinter",
+		{
+			"island": "WeferlingenWinter",
 			"sqm": "WeferlingenW",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "Chernarus_Winter",
+			"island": "Chernarus_Winter",
 			"sqm": "Chernarus_Winter",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "Winter Panthera",
+			"island": "Winter Panthera",
 			"sqm": "Winthera3",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "Thirsk Winter",
+			"island": "Thirsk Winter",
 			"sqm": "ThirskW",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "Napf Island Winter",
+			"island": "Napf Island Winter",
 			"sqm": "NapfWinter",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
-        {
-			"island" : "ChamW",
+		{
+			"island": "ChamW",
 			"sqm": "ChamW",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
-        {
-			"island" : "SummaW",
+		{
+			"island": "SummaW",
 			"sqm": "SummaW",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "IhantalaW",
+			"island": "IhantalaW",
 			"sqm": "IhantalaW",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "HellanmaaW",
+			"island": "HellanmaaW",
 			"sqm": "HellanmaaW",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "Vidda",
+			"island": "Vidda",
 			"sqm": "blud_vidda",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "NF Svartmarka Winter",
+			"island": "NF Svartmarka Winter",
 			"sqm": "NF_Svartmarka_W",
-			"mod" : "IFA3 w",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_SOV_vs_GER"
+			"mod": "IFA3 w",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_SOV_vs_GER"
 		},
 		{
-			"island" : "Altis",
+			"island": "Altis",
 			"sqm": "Altis",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Stratis",
+			"island": "Stratis",
 			"sqm": "Stratis",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Tanoa",
+			"island": "Tanoa",
 			"sqm": "Tanoa",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Malden 2035",
+			"island": "Malden 2035",
 			"sqm": "Malden",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Livonia",
+			"island": "Livonia",
 			"sqm": "Enoch",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Weferlingen",
+		{
+			"island": "Weferlingen",
 			"sqm": "Weferlingen",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Gabreta",
+		{
+			"island": "Gabreta",
 			"sqm": "Gabreta",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Polanek",
+		{
+			"island": "Polanek",
 			"sqm": "Polanek",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Bornholm",
+			"island": "Bornholm",
 			"sqm": "Bornholm",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Chernarus",
+			"island": "Chernarus",
 			"sqm": "Chernarus",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Chernarus_Summer",
+			"island": "Chernarus_Summer",
 			"sqm": "Chernarus_Summer",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Chernarus_2020",
+			"island": "Chernarus_2020",
 			"sqm": "Chernarus_2020",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Podagorsk",
+			"island": "Podagorsk",
 			"sqm": "FDF_Isle1_a",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Panthera",
+			"island": "Panthera",
 			"sqm": "Panthera3",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Lingor",
+			"island": "Lingor",
 			"sqm": "Lingor3",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Abramia",
+			"island": "Abramia",
 			"sqm": "Abramia",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Celle",
+			"island": "Celle",
 			"sqm": "mbg_celle2",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Thirsk",
+			"island": "Thirsk",
 			"sqm": "Thirsk",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Esseker",
+			"island": "Esseker",
 			"sqm": "Esseker",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Australia",
+			"island": "Australia",
 			"sqm": "Australia",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Everon",
+			"island": "Everon",
 			"sqm": "Eden",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Malden",
+			"island": "Malden",
 			"sqm": "Abel",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Kolgujev",
+			"island": "Kolgujev",
 			"sqm": "Cain",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Nogova",
+			"island": "Nogova",
 			"sqm": "Noe",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Beketov",
+			"island": "Beketov",
 			"sqm": "Beketov",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Isles of Cumbrae",
+			"island": "Isles of Cumbrae",
 			"sqm": "rof_isles_of_cumbrae",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Schwemlitz",
+			"island": "Schwemlitz",
 			"sqm": "Schwemlitz",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Rosche",
+			"island": "Rosche",
 			"sqm": "Rosche",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Sahrani",
+			"island": "Sahrani",
 			"sqm": "Sara",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "United Sahrani",
+			"island": "United Sahrani",
 			"sqm": "Sara_dbe1",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Kastellorizo",
+			"island": "Kastellorizo",
 			"sqm": "Kastellorizo",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Kerama",
+			"island": "Kerama",
 			"sqm": "Kerama",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Valtatie 5",
+			"island": "Valtatie 5",
 			"sqm": "VT5",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Virolahti",
+			"island": "Virolahti",
 			"sqm": "VT7",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Ruha",
+			"island": "Ruha",
 			"sqm": "Ruha",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Prei Khmaoch Luong Legacy",
+			"island": "Prei Khmaoch Luong Legacy",
 			"sqm": "prei_khmaoch_luong",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Prei Khmaoch Luong RHS",
+		{
+			"island": "Prei Khmaoch Luong RHS",
 			"sqm": "rhspkl",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Yellowstone",
+			"island": "Yellowstone",
 			"sqm": "yellowstone",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Tembelan",
+			"island": "Tembelan",
 			"sqm": "Tembelan",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Utes",
+			"island": "Utes",
 			"sqm": "utes",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Bukovina",
+			"island": "Bukovina",
 			"sqm": "Bootcamp_ACR",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Bystrica",
+			"island": "Bystrica",
 			"sqm": "Woodland_ACR",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Vidda",
+			"island": "Vidda",
 			"sqm": "blud_vidda",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "MSKE",
+			"island": "MSKE",
 			"sqm": "mske",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Napf Island",
+			"island": "Napf Island",
 			"sqm": "napf",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Vinjesvingen",
+		{
+			"island": "Vinjesvingen",
 			"sqm": "vinjesvingen",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Cham",
+		{
+			"island": "Cham",
 			"sqm": "Cham",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Summa",
+		{
+			"island": "Summa",
 			"sqm": "Summa",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Ihantala",
+			"island": "Ihantala",
 			"sqm": "Ihantala",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Hellanmaa",
+			"island": "Hellanmaa",
 			"sqm": "Hellanmaa",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Mull of Kintyre",
+		{
+			"island": "Mull of Kintyre",
 			"sqm": "rof_mok",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Scottish Highlands",
+		{
+			"island": "Scottish Highlands",
 			"sqm": "ScottishHighlands",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "County Fermanagh",
+		{
+			"island": "County Fermanagh",
 			"sqm": "CountyFermanagh",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
-        {
-			"island" : "Fapovo",
+		{
+			"island": "Fapovo",
 			"sqm": "Fapovo",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Colombia",
+			"island": "Colombia",
 			"sqm": "UMB_Colombia",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Pulau",
+			"island": "Pulau",
 			"sqm": "Pulau",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Niakala",
+			"island": "Niakala",
 			"sqm": "Niakala",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Sumava",
+			"island": "Sumava",
 			"sqm": "Sumava",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Maksniemi",
+			"island": "Maksniemi",
 			"sqm": "Maksniemi",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Zagorsk Big Lakes",
+			"island": "Zagorsk Big Lakes",
 			"sqm": "zagor_zagorsk_biglakes",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "Staszow",
+			"island": "Staszow",
 			"sqm": "Staszow",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "NF Svartmarka",
+			"island": "NF Svartmarka",
 			"sqm": "NF_Svartmarka",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "WW2: Neaville (I44)",
+			"island": "WW2: Neaville (I44)",
 			"sqm": "MCN_Neaville",
-			"mod" : "IFA3-US",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_US_vs_GER"
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
 		},
 		{
-			"island" : "WeferlingenWinter",
+			"island": "WW2: Montherme, Ardennes 1940",
+			"sqm": "SWU_Ardennes_1940",
+			"mod": "IFA3-US",
+			"replace": {},
+			"name": "IFA3_co10_Escape_US_vs_GER"
+		},
+		{
+			"island": "WeferlingenWinter",
 			"sqm": "WeferlingenW",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "Chernarus_Winter",
+			"island": "Chernarus_Winter",
 			"sqm": "Chernarus_Winter",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "Winter Panthera",
+			"island": "Winter Panthera",
 			"sqm": "Winthera3",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "Thirsk Winter",
+			"island": "Thirsk Winter",
 			"sqm": "ThirskW",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "Napf Island Winter",
+			"island": "Napf Island Winter",
 			"sqm": "NapfWinter",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
-        {
-			"island" : "ChamW",
+		{
+			"island": "ChamW",
 			"sqm": "ChamW",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
-        {
-			"island" : "SummaW",
+		{
+			"island": "SummaW",
 			"sqm": "SummaW",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "IhantalaW",
+			"island": "IhantalaW",
 			"sqm": "IhantalaW",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "HellanmaaW",
+			"island": "HellanmaaW",
 			"sqm": "HellanmaaW",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "Vidda",
+			"island": "Vidda",
 			"sqm": "blud_vidda",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		},
 		{
-			"island" : "NF Svartmarka Winter",
+			"island": "NF Svartmarka Winter",
 			"sqm": "NF_Svartmarka_W",
-			"mod" : "IFA3-US-W",
-			"replace" : {},
-			"name" : "IFA3_co10_Escape_Winter_US_vs_GER"
+			"mod": "IFA3-US-W",
+			"replace": {},
+			"name": "IFA3_co10_Escape_Winter_US_vs_GER"
 		}
 
-		
+
 	],
 	"Addons" : [
 		{

@@ -944,14 +944,22 @@
 				}
 		},
 		{
-			"name" : "WW2: Neaville (I44)",
-			"class" : "MCN_Neaville",
-			"path" : "./Islands/MCN_Neaville/",
-			"replace" :
-				{
-				"ISLAND" : "WW2: Neaville (I44)",
-				"ISLANDNAME" : "WW2: Neaville (I44)"
-				}
+			"name": "WW2: Neaville (I44)",
+			"class": "MCN_Neaville",
+			"path": "./Islands/MCN_Neaville/",
+			"replace": {
+				"ISLAND": "WW2: Neaville (I44)",
+				"ISLANDNAME": "WW2: Neaville (I44)"
+			}
+		},
+		{
+			"name": "WW2: Montherme, Ardennes 1940",
+			"class": "SWU_Ardennes_1940",
+			"path": "./Islands/SWU_Ardennes_1940/",
+			"replace": {
+				"ISLAND": "WW2: Montherme, Ardennes 1940",
+				"ISLANDNAME": "WW2: Montherme, Ardennes 1940"
+			}
 		}
 	],
 	"Missions" : []
