@@ -49,7 +49,7 @@ private _fnc_createObject = {
     
     if (_car != "") then {
 
-        _obj = [_car,_center,[-9.13738,-0.77026,0.023675],_rotation,7.60484e-005] call _fnc_createObject;
+        _obj = [_car,_center,[1.37904,12.6029,0.0248117],_rotation,0.000102232] call _fnc_createObject;
 
         [_obj,A3E_VAR_Side_Opfor] spawn A3E_fnc_AddStaticGunner; 
     };
@@ -60,7 +60,7 @@ private _fnc_createObject = {
     if (count _staticWeaponClasses > 0) then {
         _gun = selectRandom _staticWeaponClasses;
         
-        _obj = [_gun,_center,[7.1013,-1.86695,-0.0121193],_rotation,89.6338] call _fnc_createObject;
+        _obj = [_gun,_center,[-9.07796,-12.5047,0],_rotation,201.262] call _fnc_createObject;
       
 		[_obj,A3E_VAR_Side_Opfor] spawn A3E_fnc_AddStaticGunner; 
     };
@@ -68,31 +68,31 @@ private _fnc_createObject = {
 
 //SPAWN IN THE BASE OBJECTS	
 
-_obj = ["Land_CamoNet_NATO",_center,[0.519272,-2.87395,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_Garbage_square5_F",_center,[-2.10866,-4.24993,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_Pallet_F",_center,[2.39427,-4.49895,-4.76837e-007],_rotation,119.332] call _fnc_createObject;
-_obj = ["Land_BagBunker_Small_F",_center,[3.01683,2.24959,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_GarbageBags_F",_center,[-1.98317,-3.99993,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[0.14183,1.25007,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[-5.60817,-0.374926,0],_rotation,90] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[-3.60817,1.87507,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[-3.23317,-2.37493,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceLong",_center,[0.14183,-1.37493,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-1.48317,-1.99993,0],_rotation,90] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-1.60817,1.62507,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-5.35817,1.50007,0],_rotation,270] call _fnc_createObject;
-_obj = ["Land_BagFenceCorner",_center,[-5.23317,-2.12493,0],_rotation,180] call _fnc_createObject;
-_obj = ["Wire",_center,[7.39183,4.00007,0],_rotation,90] call _fnc_createObject;
-_obj = ["Wire",_center,[-4.98317,6.87556,0],_rotation,165] call _fnc_createObject;
-_obj = ["Wire",_center,[3.01707,8.00007,0],_rotation,180] call _fnc_createObject;
-_obj = ["Land_CratesWooden_F",_center,[0.39183,-2.49993,0],_rotation,0] call _fnc_createObject;
-_obj = ["Land_MetalBarrel_F",_center,[5.26684,0.500565,1.43051e-006],_rotation,105.007] call _fnc_createObject;
-_obj = ["Land_MetalBarrel_F",_center,[5.64183,1.50007,1.43051e-006],_rotation,194.988] call _fnc_createObject;
-
-// ++++++++FLAG++++++++++//
-
-_obj = ["LIB_FlagCarrier_GER",_center,[5.57008,5.20004,0],_rotation,0] call _fnc_createObject;
-_obj forceFlagTexture A3E_VAR_Flag_Opfor;
+_obj = ["Land_I44_Buildings_Trench1",_center,[-11.2718,-3.49657,-0.502398],_rotation,270.24] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Trench1",_center,[0.896151,-9.12701,-0.313824],_rotation,4.68291] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Trench1",_center,[0.77399,-14.119,-0.566887],_rotation,179.067] call _fnc_createObject;
+_obj = ["LIB_FlagCarrier_GER",_center,[8.91349,-4.91959,0],_rotation,91.8099] call _fnc_createObject;
+_obj = ["Land_WW2_Wire_2",_center,[-13.0062,-13.522,-4.76837e-007],_rotation,359.354] call _fnc_createObject;
+_obj = ["Land_WW2_Wire_2",_center,[-7.954,-16.217,-0.264],_rotation,72.399] call _fnc_createObject;
+_obj = ["Land_fort_bagfence_long",_center,[-9.29155,-13.2502,-0.283438],_rotation,203.944] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Bunker_AA",_center,[-2.17154,-2.54675,0],_rotation,270.506] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Trenchfloor_Large",_center,[-6.92381,8.7065,0],_rotation,274.46] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Trenchfloor_Large",_center,[5.19034,-11.518,0],_rotation,4.14885] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Trenchfloor_Large",_center,[-8.47968,-6.27469,0],_rotation,277.216] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_CT_Straight_Side",_center,[7.83003,-0.754827,-0.255147],_rotation,90.3341] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_CT_Straight_Side",_center,[-2.88382,5.93847,-0.255147],_rotation,89.7729] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_CT_Straight_Side",_center,[-14.2902,7.97927,-0.171011],_rotation,273.868] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_CT_Straight_Side",_center,[-2.87844,1.4257,-0.240384],_rotation,89.7729] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_CT_Straight_Side",_center,[-1.19384,7.0575,-0.255147],_rotation,359.984] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_CT_Straight_Side",_center,[4.84119,-6.35593,-0.227378],_rotation,139.067] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_CT_Straight_Side",_center,[5.13413,5.27403,-0.255147],_rotation,34.6121] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Barbedwire2",_center,[-14.7945,12.4774,0],_rotation,296.647] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Barbedwire2",_center,[-16.9489,6.4891,0],_rotation,101.723] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Barbedwire2",_center,[11.485,-18.6887,0],_rotation,181.74] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Barbedwire2",_center,[-16.7127,-7.48646,0],_rotation,77.4119] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Barbedwire2",_center,[-3.02874,-18.1989,0],_rotation,181.74] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Barbedwire2",_center,[4.31421,-18.4231,0],_rotation,181.74] call _fnc_createObject;
+_obj = ["Land_I44_Buildings_Barbedwire2",_center,[-17.5603,-0.613892,0],_rotation,90.4214] call _fnc_createObject;
 
 
 // Weapons
@@ -128,7 +128,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-		_box  = ["LIB_BasicWeaponsBox_GER",_center,[-2.40904,1.14478,-0.00231552],_rotation,360] call _fnc_createObject;
+        _box = ["LIB_BasicWeaponsBox_GER",_center,[-1.74242,0.585437,0.968447],_rotation,89.5865] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -173,7 +173,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-		_box  = ["LIB_WeaponsBox_Big_GER",_center,[-4.11971,0.14822,9.53674e-007],_rotation,360] call _fnc_createObject;
+        _box = ["LIB_WeaponsBox_Big_GER",_center,[2.20381,0.384704,0.970762],_rotation,2.21005e-005] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -192,9 +192,9 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 	//additional boxes (only spawned if activated in mission parameters)
 
 	if((A3E_Param_Waffelbox)==1) then {
-		_box = [a3e_additional_weapon_box_1,_center,[3.40868,-3.35395,0.0133529],_rotation,7.15375e-006] call _fnc_createObject;
+		_box = [a3e_additional_weapon_box_1,_center,[-1.78271,9.38288,0.0133538],_rotation,2.18269e-005] call _fnc_createObject;
         _box call A3E_fnc_initArsenal;		  
-		_box = [a3e_additional_weapon_box_2,_center,[3.39564,-2.60588,0.0133538],_rotation,2.05252e-006] call _fnc_createObject;
+		_box = [a3e_additional_weapon_box_2,_center,[-1.76967,8.63481,0.0133538],_rotation,1.46107e-005] call _fnc_createObject;
         _box call A3E_fnc_initArsenal;				  
 	 };
 
@@ -227,7 +227,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
     
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-		_box  = ["LIB_Mine_Ammo_Box_Ger",_center,[-4.01283,-1.66357,-0.00583076],_rotation,360] call _fnc_createObject;
+        _box = ["LIB_Mine_Ammo_Box_Ger",_center,[-1.21271,1.37208,0.964928],_rotation,1.79426] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -290,7 +290,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
 	
     if (count _weapons > 0 || count _weaponMagazines > 0 || count _items > 0) then {
 
-		_box  = ["VirtualReammoBox_small_F",_center,[2.29879,-1.65804,-9.53674e-007],_rotation,88.6861] call _fnc_createObject;
+        _box = ["VirtualReammoBox_small_F",_center,[-1.63408,-0.437074,0.977736],_rotation,90.4703] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -333,7 +333,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
     
     if (count _weapons > 0) then {
 
-		_box  = ["LIB_BasicAmmunitionBox_GER",_center,[-3.57706,1.14572,-0.00583029],_rotation,3.10809e-005] call _fnc_createObject;
+        _box = ["LIB_BasicAmmunitionBox_GER",_center,[-1.74125,-1.68023,0.964934],_rotation,359.431] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;
@@ -373,7 +373,7 @@ _obj forceFlagTexture A3E_VAR_Flag_Opfor;
     
     if (count _weapons > 0 || count _weaponMagazines > 0) then {
 
-     	_box  = ["Box_Syndicate_WpsLaunch_F",_center,[-2.46779,-1.70219,0],_rotation,1.75486e-006] call _fnc_createObject;
+        _box = ["Box_Syndicate_WpsLaunch_F",_center,[0.303609,1.36307,0.970747],_rotation,1.61781] call _fnc_createObject;
         clearWeaponCargoGlobal _box;
         clearMagazineCargoGlobal _box;
         clearItemCargoGlobal _box;

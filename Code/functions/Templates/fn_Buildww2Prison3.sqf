@@ -5,7 +5,7 @@
 // WW2 Prison 1
 
 //params and vars already defined in original buildprison function
-private["_obj","_pos"];
+private["_obj","_pos","_yaw","_pitch","_roll"];
 params ["_center","_rotation","_backpack"];
 
 // functions from export script
@@ -13,28 +13,14 @@ _fnc_createObject = {
     params["_className","_centerPos","_relativePos","_rotateDir","_relativeDir"];
     private["_object", "_realPos", "_realDir"];
 
-    _fnc_rotatePos = {
-        private ["_centerPos", "_pos", "_dir"];
-        private ["_px", "_py", "_mpx", "_mpy", "_ma", "_rpx", "_rpy"];
-        _centerPos = _this select 0;
-        _pos = _this select 1;
-        _dir = _this select 2;
-        _px = _pos select 0;
-        _py = _pos select 1;
-        _mpx = _centerPos select 0;
-        _mpy = _centerPos select 1;
-        _ma = _dir;
-        _rpx = ( (_px - _mpx) * cos(_ma) ) + ( (_py - _mpy) * sin(_ma) ) + _mpx;
-        _rpy = (-(_px - _mpx) * sin(_ma) ) + ( (_py - _mpy) * cos(_ma) ) + _mpy;
-        [_rpx, _rpy, (_pos select 2)];
-    };
-
-    _realPos = ([_centerPos, [(_centerPos select 0) + (_relativePos select 0), (_centerPos select 1) + (_relativePos select 1),(_centerPos select 2)], _rotateDir] call _fnc_rotatePos);
+    _realPos = ([_centerPos, [(_centerPos select 0) + (_relativePos select 0), (_centerPos select 1) + (_relativePos select 1),(_relativePos select 2)], _rotateDir] call A3E_fnc_rotatePosition);
     _object = createVehicle [_className, _realPos, [], 0, "CAN_COLLIDE"];
     _object setdir (_relativeDir + _rotateDir);
     _object setPosATL _realPos;
     _object;
 };
+
+
 // set obj to nothing, from export script
 private _obj = objNull;
 
@@ -42,13 +28,15 @@ private _obj = objNull;
 //Stuff that needs to be global. Normally this is the gate and the Loudspeaker
 if(isserver) then {
 // cleanup terrain
-	[_center,25] call a3e_fnc_cleanupTerrain;
+    [_center,25] call a3e_fnc_cleanupTerrain;
 
 // set position of backpack
-	_pos = [_center,_center vectorAdd [0,0,0.5],_rotation] call A3E_fnc_rotatePosition;
-	_backpack setdir ((getdir _backpack) + _rotation);
-	_backpack setPosATL _pos;
-
+ 
+    
+    _pos = [_center,_center vectorAdd [random 2.0 - 1, random 2.0 -1,0],_rotation] call A3E_fnc_rotatePosition;
+    _backpack setdir ((getdir _backpack) + _rotation);
+    _backpack setPosATL _pos;
+    
 // create loudspeaker
    _obj = ["Loudspeakers_EP1",_center,[4.33852,-2.39261,0],_rotation,91.1146] call _fnc_createObject;
 	A3E_PrisonLoudspeakerObject = _obj;
