@@ -5,7 +5,7 @@ class Params
             title = "Parameter Load and Save (save params between sessions, see readme!)";
             values[] = {0, 1, 2};
             texts[] = {"Use settings below and save (settings will be restored on mission restart)", "Load previously saved settings (Use below if none found)", "Use settings below without saving"};
-            default = 1;
+            default = 2;
 	};
 	class A3E_Param_Spacer1
     {
@@ -36,7 +36,7 @@ class Params
 		values[]={2,4,6,8,-1,-2,-3};
 		texts[]={"Few (2-3)", "Some (3-5)", "Large (5-7)", "Max (7-9)","Players 1:0.5","Players 1:1","Players 1:1.5"};
 		livechanges = 1;
-		default = -2;
+		default = 2;
 	};
 	class A3E_Param_EnemySpawnDistance
 	{
