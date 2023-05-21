@@ -26,7 +26,7 @@ if(side _grp == civilian) then {
 
 				private _reporter = selectRandom _unitsAbleToRadio;
 				private _useAnim = false;
-				private _sound = selectRandom (missionNamespace getvariable ["A3E_Radio_Reporting",["RadioAmbient2","RadioAmbient6","RadioAmbient8"]]);
+				private _sound = selectRandom (missionNamespace getvariable ["A3E_Radio_Reporting",["em1_aware1","em1_aware2","em1_aware3","em1_aware4","em1_aware5","em1_aware6"]]);
 				//sound[] = {"a3\sounds_f\sfx\radio\ambient_radio8",0.398107,1};
 				[_reporter,[_sound,100,1,true,0]] remoteExec ["say3D",0];
 				[_reporter,true] remoteexec ["setRandomLip",0];

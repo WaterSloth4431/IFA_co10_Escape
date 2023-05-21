@@ -57,9 +57,9 @@ _obj = ["LIB_FlagCarrier_GER",_center,[1.42262,-5.48914,0],_rotation,179.435] ca
 _gun = selectRandom a3e_arr_MortarSite;
 _obj = [_gun,_center,[-8.61133,2.5294,-0.0046587],_rotation,360] call _fnc_createObject;
 [_obj,A3E_VAR_Side_Opfor] spawn A3E_fnc_AddStaticGunner; 
-[_obj, -1] call ace_cargo_fnc_setSize;
-[_obj, false] call ace_dragging_fnc_setDraggable;
-[_obj, false] call ace_dragging_fnc_setCarryable;
+[_obj, -1] remoteExec ["ace_cargo_fnc_setSize"];
+[_obj, false] remoteExec ["ace_dragging_fnc_setDraggable"];
+[_obj, false] remoteExec ["ace_dragging_fnc_setCarryable"];
 a3e_var_artillery_units pushBack _obj;
 
 
